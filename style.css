@@ -736,16 +736,10 @@ input:focus, select:focus, textarea:focus {
     color: var(--color-text);
 }
 
-.produto p {
-    margin: 0;
-    font-size: 0.95rem;
-    color: var(--color-text-muted);
-}
-
 .producto p {
     margin: 0;
     font-size: 0.95rem;
-    color: var(--color-text-muted);
+    color: var(--color-text-muted); /* Cambiado de #333 para soportar modo oscuro */
 }
 
 .producto .precio {
@@ -1148,13 +1142,17 @@ input:focus, select:focus, textarea:focus {
 }
 
 .carousel-indicators button {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     border: none;
     background: rgba(255,255,255,0.4);
     cursor: pointer;
     padding: 0;
+    margin: 0;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .carousel-indicators button[aria-current="true"] {
@@ -1273,9 +1271,9 @@ input:focus, select:focus, textarea:focus {
     text-align: left;
 }
 
-.detail-desc {
+.producto p.detail-desc {
     font-size: 0.85rem;
-    color: var(--color-text-muted);
+    color: var(--color-text); /* Cambiado para que no sea gris y se lea bien */
     line-height: 1.55;
     margin: 0;
 }
@@ -1550,48 +1548,42 @@ input:focus, select:focus, textarea:focus {
 /* ── Carrusel de relojes ── */
 @media (max-width: 768px) {
     .carousel-slide {
-        height: 300px;
+        height: 280px;
     }
 
     .carousel-slide img {
-        max-width: 70%;
-        height: 65%;
-        /* Desplazar imagen hacia arriba para darle espacio al caption */
-        margin-bottom: 90px;
+        max-width: 75%;
+        height: 80%;
     }
 
     .carousel-caption {
-        padding: .65rem 1rem;
-        /* Limitar la altura del caption para no invadir la imagen */
-        max-height: 90px;
+        padding: .75rem 1rem;
     }
 
     .carousel-caption h3 {
-        font-size: .95rem;
-        margin-bottom: .15rem;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        font-size: 1rem;
+        margin-bottom: .2rem;
     }
 
     .carousel-caption p {
-        font-size: .75rem;
-        margin: 0;
+        font-size: .8rem;
     }
 
-    /* Mover indicadores SOBRE la imagen, no sobre el texto */
     .carousel-indicators {
-        bottom: 94px;
+        bottom: 90px;
     }
 
-    /* Botones más pequeños y alejados de la zona de texto */
+    .carousel-indicators button {
+        width: 6px;
+        height: 6px;
+    }
+
     .carousel .prev,
     .carousel .next {
-        width: 34px;
-        height: 34px;
-        font-size: .9rem;
-        /* Subir los botones para que no queden sobre el caption */
-        top: 40%;
+        width: 28px;
+        height: 28px;
+        font-size: 0.8rem;
+        top: 40%; /* Movidos un poco arriba para que no tapen el texto */
     }
 }
 
@@ -1696,26 +1688,9 @@ input:focus, select:focus, textarea:focus {
 
 /* ── Touch targets mínimos (accesibilidad) ── */
 @media (max-width: 900px) {
-    /* Excluir botones del carrusel del tamaño mínimo de touch */
-    a:not(.carousel .prev):not(.carousel .next):not(.carousel-indicators button),
-    button:not(.carousel .prev):not(.carousel .next):not(.carousel-indicators button),
-    [role="button"]:not(.carousel .prev):not(.carousel .next) {
+    a, button, [role="button"] {
         min-height: 44px;
         min-width: 44px;
-    }
-
-    /* Botones del carrusel: tamaño fijo sin min-height grande */
-    .carousel .prev,
-    .carousel .next {
-        min-height: unset;
-        min-width: unset;
-    }
-
-    .carousel-indicators button {
-        min-height: unset;
-        min-width: unset;
-        width: 10px;
-        height: 10px;
     }
 
     .chip {
