@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Palermo Tech | Ofertas</title>
+    <meta name="description" content="Descuentos en tecnología, celulares y vapes." />
+    <link rel="icon" type="image/png" href="images/favicon.png?v=2" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-page="ofertas">
+
+    <header class="site-header">
+        <div class="container nav">
+            <a class="brand" href="index.html" aria-label="Palermo Tech">
+                <span class="brand-text">Palermo Tech</span>
+            </a>
+            <nav class="nav-links" aria-label="Principal">
+                <a href="index.html">Inicio</a>
+                <a href="tecnologia.html">Tecnología</a>
+                <a href="celulares.html">Celulares</a>
+                <a href="relojes.html">Relojes</a>
+                <a href="electrodomesticos.html">Electrodomésticos</a>
+                <a href="ofertas.html">Ofertas</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="btn-icon" type="button" aria-pressed="false" title="Cambiar tema"
+                    aria-label="Cambiar tema">🌓</button>
+                <button id="burger" class="btn-icon burger" type="button" aria-expanded="false"
+                    aria-label="Abrir menú">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="contenido" class="section">
+        <div class="container stack reveal">
+            <h1>Ofertas del Mes</h1>
+            <div class="toolbar" role="region" aria-label="Filtros de ofertas">
+                <input id="search-ofertas" type="search" placeholder="Buscar producto..." aria-label="Buscar oferta" />
+                <input id="min-precio" type="number" step="1000" min="0" placeholder="Mín $" />
+                <input id="max-precio" type="number" step="1000" min="0" placeholder="Máx $" />
+            </div>
+
+            <section class="grid grid-3 results" aria-live="polite">
+                <article class="card" style="cursor: pointer;"
+                    onclick="window.location.href='detalle.html?id=iphone_13'" data-nombre="iPhone 13"
+                    data-precio="699999">
+                    <div class="media"><img src="images/productos/iphone_13.png" alt="iPhone 13"></div>
+                    <div class="body">
+                        <h3>iPhone 13 128GB</h3>
+                        <p class="meta">Antes $850.000 • Ahora <strong>$699.999</strong> <span class="badge">Hot
+                                Sale</span>
+                        </p>
+                        <p>Sellado de fábrica, garantía oficial.</p>
+                    </div>
+                </article>
+
+                <article class="card" style="cursor: pointer;"
+                    onclick="window.location.href='detalle.html?id=auriculares_bluetooth'"
+                    data-nombre="Auriculares Bluetooth" data-precio="45000">
+                    <div class="media"><img src="images/productos/prod_41.jpg" alt="Auriculares"></div>
+                    <div class="body">
+                        <h3>Auriculares Pro</h3>
+                        <p class="meta">Antes $75.000 • Ahora <strong>$45.000</strong> <span class="badge">Oferta</span>
+                        </p>
+                        <p>Cancelación de ruido activa.</p>
+                    </div>
+                </article>
+            </section>
+
+            <p id="ofertas-empty" class="empty" hidden>No hay resultados para esos filtros.</p>
+        </div>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <div class="cluster">
+                <span class="chip">📍 Palermo Soho</span>
+                <a class="chip no-under" href="contacto.html">✉️ Contacto</a>
+            </div>
+            <p class="copyright">© <span id="year"></span> Palermo Tech.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

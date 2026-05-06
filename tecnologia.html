@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Palermo Tech | Tecnología</title>
+    <meta name="description" content="Notebooks, tablets y accesorios gamer en Palermo Tech." />
+    <link rel="icon" type="image/png" href="images/favicon.png?v=2" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-page="locales">
+
+    <header class="site-header">
+        <div class="container nav">
+            <a class="brand" href="index.html" aria-label="Palermo Tech">
+                <span class="brand-text">Palermo Tech</span>
+            </a>
+            <nav class="nav-links" aria-label="Principal">
+                <a href="index.html">Inicio</a>
+                <a href="tecnologia.html">Tecnología</a>
+                <a href="celulares.html">Celulares</a>
+                <a href="relojes.html">Relojes</a>
+                <a href="electrodomesticos.html">Electrodomésticos</a>
+                <a href="ofertas.html">Ofertas</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="btn-icon" aria-pressed="false" title="Cambiar tema"
+                    aria-label="Cambiar tema">🌓</button>
+                <button id="burger" class="btn-icon burger" aria-expanded="false" aria-label="Abrir menú">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="contenido" class="section">
+        <div class="container stack reveal">
+            <h1>Tecnología</h1>
+
+            <div class="toolbar">
+                <input id="search-locales" type="search" placeholder="Buscar producto..."
+                    aria-label="Buscar tecnología" />
+                <select id="filter-categoria" aria-label="Filtrar por categoría">
+                    <option value="">Todas las categorías</option>
+                    <option value="notebooks">Notebooks</option>
+                    <option value="audio">Audio</option>
+                    <option value="perifericos">Periféricos</option>
+                </select>
+            </div>
+
+            <section id="productos" class="stack">
+                <div id="lista-locales" class="grid grid-3">
+
+                    <div class="producto" data-categoria="notebooks" data-id="macbook_m4_256gb"
+                        onclick="window.location.href='detalle.html?id=macbook_m4_256gb'">
+                        <div class="media">
+                            <img src="images/productos/macbook-air-13-m4-16gb-256gb-ssd-silver.jpg"
+                                alt="Macbook M4 16/256GB">
+                        </div>
+                        <div class="body">
+                            <h3>Macbook M4 16/256GB</h3>
+                            <p class="precio">USD $1250</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="notebooks" data-id="macbook_m5_512gb"
+                        onclick="window.location.href='detalle.html?id=macbook_m5_512gb'">
+                        <div class="media">
+                            <img src="images/productos/macbook m 5 512gb.webp" alt="Macbook M5 16/512GB">
+                        </div>
+                        <div class="body">
+                            <h3>Macbook M5 16/512GB</h3>
+                            <p class="precio">USD $1350</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="notebooks" data-id="macbook_neo_256gb"
+                        onclick="window.location.href='detalle.html?id=macbook_neo_256gb'">
+                        <div class="media">
+                            <img src="images/productos/macbook-neo.webp" alt="Macbook Neo 256GB">
+                        </div>
+                        <div class="body">
+                            <h3>Macbook Neo 256GB</h3>
+                            <p class="precio">USD $820</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="notebooks" data-id="macbook_neo_512gb"
+                        onclick="window.location.href='detalle.html?id=macbook_neo_512gb'">
+                        <div class="media">
+                            <img src="images/productos/macbook-neo.webp" alt="Macbook Neo 512GB">
+                        </div>
+                        <div class="body">
+                            <h3>Macbook Neo 512GB</h3>
+                            <p class="precio">USD $900</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="notebooks" data-id="ipad_a16_wifi_128gb"
+                        onclick="window.location.href='detalle.html?id=ipad_a16_wifi_128gb'">
+                        <div class="media">
+                            <img src="images/productos/ipad 11.webp" alt="iPad A16 WiFi 128GB">
+                        </div>
+                        <div class="body">
+                            <h3>iPad A16 WiFi 128GB</h3>
+                            <p class="precio">USD $490</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="perifericos" data-id="nintendo_switch_2_black"
+                        onclick="window.location.href='detalle.html?id=nintendo_switch_2_black'">
+                        <div class="media">
+                            <img src="images/productos/nintendo switch 2.avif" alt="Nintendo Switch 2 Black US">
+                        </div>
+                        <div class="body">
+                            <h3>Nintendo Switch 2 Black US</h3>
+                            <p class="precio">USD $700</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="perifericos" data-id="sony_ps5_fisica_1tb"
+                        onclick="window.location.href='detalle.html?id=sony_ps5_fisica_1tb'">
+                        <div class="media">
+                            <img src="images/productos/ps5-slim fisica.jpg"
+                                alt="Sony PS5 Fisica 1TB">
+                        </div>
+                        <div class="body">
+                            <h3>Sony PS5 Fisica 1TB</h3>
+                            <p class="precio">USD $780</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="perifericos" data-id="sony_ps5_digital_825gb"
+                        onclick="window.location.href='detalle.html?id=sony_ps5_digital_825gb'">
+                        <div class="media">
+                            <img src="images/productos/playstation 5 digital.webp" alt="Sony PS5 Digital 825GB">
+                        </div>
+                        <div class="body">
+                            <h3>Sony PS5 Digital 825GB</h3>
+                            <p class="precio">USD $700</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="perifericos" data-id="sony_ps5_digital_astro_1tb"
+                        onclick="window.location.href='detalle.html?id=sony_ps5_digital_astro_1tb'">
+                        <div class="media">
+                            <img src="images/productos/playstation 5 astrobot.png"
+                                alt="Sony PS5 Digital Astro Bot + Gran Turismo 1TB">
+                        </div>
+                        <div class="body">
+                            <h3>Sony PS5 Digital Astro Bot + Gran Turismo 1TB</h3>
+                            <p class="precio">USD $750</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="perifericos" data-id="sony_joystick_ps5_comunes"
+                        onclick="window.location.href='detalle.html?id=sony_joystick_ps5_comunes'">
+                        <div class="media">
+                            <img src="images/productos/ps5 joystick.jpg" alt="Sony Joystick PS5 Comunes">
+                        </div>
+                        <div class="body">
+                            <h3>Sony Joystick PS5 Comunes</h3>
+                            <p class="precio">USD $100</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="perifericos" data-id="sony_joystick_ps5_especial"
+                        onclick="window.location.href='detalle.html?id=sony_joystick_ps5_especial'">
+                        <div class="media">
+                            <img src="images/productos/joystick ps5 especial.jpg"
+                                alt="Sony Joystick PS5 Edición Especial">
+                        </div>
+                        <div class="body">
+                            <h3>Sony Joystick PS5 Edición Especial</h3>
+                            <p class="precio">USD $140</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" data-categoria="perifericos" data-id="sony_vr2_horizon"
+                        onclick="window.location.href='detalle.html?id=sony_vr2_horizon'">
+                        <div class="media">
+                            <img src="images/productos/sony horizon.jpeg" alt="Sony VR2 Horizon">
+                        </div>
+                        <div class="body">
+                            <h3>Sony VR2 Horizon</h3>
+                            <p class="precio">USD $580</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" style="cursor: pointer;"
+                        onclick="window.location.href='detalle.html?id=airpods_pro_2'">
+                        <div class="media">
+                            <img src="images/productos/prod_41.jpg" alt="Airpods Pro 2">
+                        </div>
+                        <div class="body">
+                            <h3>Airpods Pro 2</h3>
+                            <p class="precio">$39.999</p>
+                        </div>
+                    </div>
+
+                    <div class="producto" style="cursor: pointer;"
+                        onclick="window.location.href='detalle.html?id=soporte_magn_tico_extensible_para_celular_ventana_auto_espejo'">
+                        <div class="media">
+                            <img src="images/productos/prod_42.webp"
+                                alt="Soporte Magnético Extensible Para Celular Ventana Auto Espejo">
+                        </div>
+                        <div class="body">
+                            <h3>Soporte Magnético Extensible Para Celular Ventana, Auto, Espejo</h3>
+                            <p class="precio">$19.999</p>
+                        </div>
+                    </div>
+
+                </div>
+                <p id="locales-empty" class="empty" hidden>No encontramos tecnología con esos criterios.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <div class="cluster">
+                <span class="chip">📍 Palermo Soho</span>
+                <a class="chip no-under" href="contacto.html">✉️ Contacto</a>
+            </div>
+            <p class="copyright">© <span id="year"></span> Palermo Tech.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

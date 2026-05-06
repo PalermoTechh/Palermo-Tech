@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Palermo Tech | Electrodomésticos </title>
+    <meta name="description" content="Electrodomésticos importados en Palermo Tech." />
+    <link rel="icon" type="image/png" href="images/favicon.png?v=2" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-page="servicios">
+<header class="site-header">
+    <div class="container nav">
+        <a class="brand" href="index.html" aria-label="Palermo Tech">
+            <span class="brand-text">Palermo Tech</span>
+        </a>
+        <nav class="nav-links" aria-label="Principal">
+            <a href="index.html">Inicio</a>
+            <a href="tecnologia.html">Tecnología</a>
+            <a href="celulares.html">Celulares</a>
+            <a href="relojes.html">Relojes</a>
+            <a href="electrodomesticos.html">Electrodomésticos</a>
+            <a href="ofertas.html">Ofertas</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <div class="nav-actions">
+            <button id="theme-toggle" class="btn-icon" type="button" aria-pressed="false" title="Cambiar tema"
+                aria-label="Cambiar tema">🌓</button>
+            <button id="burger" class="btn-icon burger" type="button" aria-expanded="false" aria-label="Abrir menú">☰</button>
+        </div>
+    </div>
+</header>
+
+    <main id="contenido" class="section">
+        <div class="container stack reveal">
+            <h1>Electrodomésticos</h1>
+            <p class="lead">Explorá nuestro catálogo exclusivo.</p>
+            
+            <section class="grid grid-3">
+                <article class="card">
+                    <div class="body">
+                        <h3>Garantía</h3>
+                        <p class="meta">Productos 100% originales.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="body">
+                        <h3>Probadores</h3>
+                        <p class="meta">Testeá antes de llevar.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="body">
+                        <h3>Asesoramiento</h3>
+                        <p class="meta">Te ayudamos a elegir.</p>
+                    </div>
+                </article>
+            </section>
+
+            <div class="toolbar mt-6" role="search">
+                <input id="search-electrodomesticos" type="search" placeholder="Buscar por nombre (ej: Heladera)..." />
+                
+                <select id="filter-category-electrodomesticos" aria-label="Filtrar por categoría">
+                    <option value="todos">Todas las Categorías</option>
+                    <option value="Limpieza">Limpieza</option>
+                    <option value="Refrigeración y Lavado">Refrigeración y Lavado</option>
+                    <option value="Climatización y Electrodomésticos de Cocina">Climatización y Electrodomésticos de Cocina</option>
+                </select>
+
+                <input id="max-price-electrodomesticos" type="number" placeholder="Precio Máximo $" step="5000" />
+            </div>
+
+            <section id="productos" class="stack">
+                <div id="lista-electrodomesticos" class="grid grid-3">
+                    
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=freezer_vertical_no_frost_230_lts'">
+                        <img src="images/productos/prod_4.jpg" alt="Freezer Vertical no frost 230 LTS">
+                        <h3>Freezer Vertical no frost 230 LTS</h3>
+                        <p class="precio"> $1.277.583</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=heladera_c_clica_top_mount_240l_silver'">
+                        <img src="images/productos/prod_5.jpg" alt="Heladera cíclica top mount 240L Silver">
+                        <h3>Heladera cíclica top mount 240L Silver</h3>
+                        <p class="precio"> $611.680</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=heladera_c_clica_top_mount_295l_blanca'">
+                        <img src="images/productos/prod_6.jpg" alt="Heladera cíclica top mount 295L Blanca">
+                        <h3>Heladera cíclica top mount 295L Blanca</h3>
+                        <p class="precio"> $643.753</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=heladera_no_frost_inverter_top_mount_266l'">
+                        <img src="images/productos/prod_7.jpg" alt="Heladera no frost inverter top mount 266L">
+                        <h3>Heladera no frost inverter top mount 266L</h3>
+                        <p class="precio"> $717.723</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=heladera_no_frost_inverter_top_mount_470l'">
+                        <img src="images/productos/prod_8.jpg" alt="Heladera no frost inverter top mount 470L">
+                        <h3>Heladera no frost inverter top mount 470L</h3>
+                        <p class="precio"> $1.200.823</p>
+                   </div>
+                  
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=heladera_no_frost_inverter_side_by_side_510l'">
+                        <img src="images/productos/prod_9.jpg" alt="Heladera no frost inverter side by side 510L">
+                        <h3>Heladera no frost inverter side by side 510L</h3>
+                        <p class="precio"> $1.500.409</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=lavarropas_6_kg_titanium'">
+                        <img src="images/productos/prod_10.png" alt="Lavarropas 6 KG Titanium">
+                        <h3>Lavarropas 6 KG Titanium</h3>
+                        <p class="precio"> $580.522</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=lavarropas_6_kg_blanco'">
+                        <img src="images/productos/prod_11.png" alt="Lavarropas 6 KG Blanco">
+                        <h3>Lavarropas 6 KG Blanco</h3>
+                        <p class="precio"> $550.382</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=lavarropas_lunar_inverter_10_5kg_titanium_wifi'">
+                        <img src="images/productos/prod_12.webp" alt="Lavarropas Lunar Inverter 10.5KG Titanium WIFI">
+                        <h3>Lavarropas Lunar Inverter 10.5KG Titanium WIFI</h3>
+                        <p class="precio"> $790.662</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=lavarropas_lunar_inverter_8kg_titanium_wifi'">
+                        <img src="images/productos/prod_13.png" alt="Lavarropas Lunar Inverter 8KG Titanium WIFI">
+                        <h3>Lavarropas Lunar Inverter 8KG Titanium WIFI</h3>
+                        <p class="precio"> $700.892</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=lavavajillas_silver_12_cubiertos'">
+                        <img src="images/productos/prod_14.jpg" alt="Lavavajillas Silver 12 cubiertos">
+                        <h3>Lavavajillas Silver 12 cubiertos</h3>
+                        <p class="precio"> $625.480</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=lavavajillas_inox_14_cubiertos'">
+                        <img src="images/productos/prod_15.jpg" alt="Lavavajillas Inox 14 cubiertos">
+                        <h3>Lavavajillas Inox 14 cubiertos</h3>
+                        <p class="precio"> $870.698</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=aspiradora_robot_laser_smart_trapeadora'">
+                        <img src="images/productos/prod_16.jpg" alt="Aspiradora Robot Laser Smart trapeadora">
+                        <h3>Aspiradora Robot Laser Smart trapeadora</h3>
+                        <p class="precio"> $733.844</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=aspiradora_s_bolsa_1400w_blue'">
+                        <img src="images/productos/prod_17.jpg" alt="Aspiradora S/Bolsa 1400W Blue">
+                        <h3>Aspiradora S/Bolsa 1400W Blue</h3>
+                        <p class="precio"> $160.016</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=aspiradora_s_bolsa_2000w_flat_blue'">
+                        <img src="images/productos/prod_18.jpg" alt="Aspiradora S/Bolsa 2000W Flat Blue">
+                        <h3>Aspiradora S/Bolsa 2000W Flat Blue</h3>
+                        <p class="precio"> $240.869</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=aspiradora_stick_inal_mbrica_2_en_1'">
+                        <img src="images/productos/prod_19.jpg" alt="Aspiradora Stick inalámbrica 2 en 1">
+                        <h3>Aspiradora Stick inalámbrica 2 en 1</h3>
+                        <p class="precio"> $250.627</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=aire_acondicionado_2503_frigor_as'">
+                        <img src="images/productos/prod_20.jpg" alt="Aire acondicionado 2503 frigorías">
+                        <h3>Aire acondicionado 2503 frigorías</h3>
+                        <p class="precio"> $750.654</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=ventilador_de_pie_blanco'">
+                        <img src="images/productos/prod_21.webp" alt="Ventilador de pie blanco">
+                        <h3>Ventilador de pie blanco</h3>
+                        <p class="precio"> $140.310</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=ventilador_de_pie_negro_20'">
+                        <img src="images/productos/prod_22.jpg" alt="Ventilador de pie negro 20&quot;">
+                        <h3>Ventilador de pie negro 20</h3>
+                        <p class="precio"> $99.891</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=tostadora_el_ctrica'">
+                        <img src="images/productos/prod_23.jpg" alt="Tostadora eléctrica">
+                        <h3>Tostadora eléctrica</h3>
+                        <p class="precio"> $50.213</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=cafetera_1_25l_negra'">
+                        <img src="images/productos/prod_24.jpg" alt="Cafetera 1.25L negra">
+                        <h3>Cafetera 1.25L negra</h3>
+                        <p class="precio"> $65.271</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=batidora_de_mano_negra'">
+                        <img src="images/productos/prod_25.jpg" alt="Batidora de mano negra">
+                        <h3>Batidora de mano negra</h3>
+                        <p class="precio"> $75.766</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=licuadora_800w_inox'">
+                        <img src="images/productos/prod_26.jpg" alt="Licuadora 800W Inox">
+                        <h3>Licuadora 800W Inox</h3>
+                        <p class="precio"> $120.528</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=campana_extractora_de_humo_inox'">
+                        <img src="images/productos/prod_27.webp" alt="Campana extractora de humo Inox">
+                        <h3>Campana extractora de humo Inox</h3>
+                        <p class="precio"> $450.045</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=anafe_el_ctrico_negro'">
+                        <img src="images/productos/prod_28.webp" alt="Anafe eléctrico negro">
+                        <h3>Anafe eléctrico negro</h3>
+                        <p class="precio"> $490.000</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=air_fryer_4_5l'">
+                        <img src="images/productos/prod_29.jpg" alt="Air Fryer 4.5L">
+                        <h3>Air Fryer 4.5L</h3>
+                        <p class="precio"> $90.721</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=air_fryer_11l_negra_smart_digital'">
+                        <img src="images/productos/prod_30.webp" alt="Air Fryer 11L negra smart digital">
+                        <h3>Air Fryer 11L negra smart digital</h3>
+                        <p class="precio"> $320.505</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=licuadora_de_mano'">
+                        <img src="images/productos/prod_31.jpg" alt="Licuadora de mano">
+                        <h3>Licuadora de mano</h3>
+                        <p class="precio"> $160.419</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=horno_a_microondas_25_lts_digital_con_grill'">
+                        <img src="images/productos/prod_32.jpg" alt="Horno a microondas 25 LTS digital con grill">
+                        <h3>Horno a microondas 25 LTS digital con grill</h3>
+                        <p class="precio"> $188.591</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=pava_el_ctrica_1_7l_inox_digital'">
+                        <img src="images/productos/prod_33.jpg" alt="Pava eléctrica 1.7L Inox digital">
+                        <h3>Pava eléctrica 1.7L Inox digital</h3>
+                        <p class="precio"> $150.956</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=horno_el_ctrico_grill_40l'">
+                        <img src="images/productos/prod_34.webp" alt="Horno eléctrico grill 40L">
+                        <h3>Horno eléctrico grill 40L</h3>
+                        <p class="precio"> $388.749</p>
+                   </div>
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=tostadora_el_ctrica_negra'">
+                        <img src="images/productos/prod_35.jpg" alt="Tostadora eléctrica negra">
+                        <h3>Tostadora eléctrica negra</h3>
+                        <p class="precio"> $130.146</p>
+                   </div>
+                </div>
+                <p id="electrodomesticos-empty" class="empty" hidden>No encontramos electrodomésticos con esos criterios.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <div class="cluster">
+                <span class="chip">📍 Palermo Soho</span>
+                <a class="chip no-under" href="contacto.html">✉️ Contacto</a>
+            </div>
+            <p class="copyright">© <span id="year"></span> Palermo Tech.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Palermo Tech | Relojes</title>
+    <meta name="description" content="Colección de relojes de alta gama en Palermo Tech." />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        /* Contenedor Principal */
+        .carousel {
+            position: relative;
+            width: 100%;
+            max-width: 1000px; /* Ancho máximo */
+            height: 500px;     /* Altura FIJA necesaria para que no colapse */
+            margin: 0 auto;
+            border-radius: 15px;
+            overflow: hidden; /* Oculta lo que se sale del cuadro */
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            background: #000; /* Fondo negro */
+        }
+
+        /* La pista que se mueve */
+        .carousel-track-container {
+            background: #0f172a; 
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+        .carousel-track {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            position: relative;
+            height: 100%;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        /* EL FIX IMPORTANTE: position absolute para que el JS las ponga en fila */
+        .carousel-slide {
+            position: absolute; 
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%; /* Ocupa todo el alto */
+            display: flex; /* Centrar contenido */
+            align-items: center;
+            justify-content: center;
+            /* Fondo degradado */
+            background: radial-gradient(circle at center, #334155 0%, #0f172a 100%);
+        }
+
+        /* Imágenes */
+        .carousel-slide img {
+            width: auto;
+            max-width: 85%;
+            height: 75%;
+            object-fit: contain; /* Asegura que se vea el reloj entero */
+            filter: drop-shadow(0 10px 15px rgba(0,0,0,0.6));
+            z-index: 1;
+        }
+
+        /* Texto */
+        .carousel-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 40px;
+            background: linear-gradient(to top, rgba(0,0,0,0.95), rgba(0,0,0,0));
+            color: white;
+            text-align: center;
+            z-index: 2;
+        }
+
+        .carousel-caption h3 {
+            margin: 0 0 5px 0;
+            font-size: 1.8rem;
+            color: #fff !important;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+        }
+
+        .carousel-caption p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #ddd !important;
+        }
+
+        /* Botones */
+        .carousel .prev, .carousel .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.2);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s;
+        }
+        .carousel .prev:hover, .carousel .next:hover { background: rgba(255,255,255,1); color: #000; }
+        .carousel .prev { left: 20px; }
+        .carousel .next { right: 20px; }
+
+        /* Indicadores (Puntitos) */
+        .carousel-indicators {
+            position: absolute;
+            bottom: 100px; /* Encima del texto */
+            left: 0; 
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            z-index: 5;
+        }
+        .carousel-indicators button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.4);
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+        .carousel-indicators button[aria-current="true"] {
+            background: #fff;
+            transform: scale(1.3);
+        }
+    </style>
+</head>
+
+<body data-page="entretenimientos"> 
+
+    <header class="site-header">
+        <div class="container nav">
+            <a class="brand" href="index.html" aria-label="Palermo Tech">
+                <span style="font-weight:800; font-size:1.5rem;">Palermo Tech</span>
+            </a>
+            <nav class="nav-links" aria-label="Principal">
+                <a href="index.html">Inicio</a>
+                <a href="tecnologia.html">Tecnología</a>
+                <a href="celulares.html">Celulares</a>
+                <a href="relojes.html">Relojes</a>
+                <a href="electrodomesticos.html">Electrodomésticos</a>
+                <a href="ofertas.html">Ofertas</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="btn-icon" aria-pressed="false" title="Cambiar tema">🌓</button>
+                <button id="burger" class="btn-icon burger" aria-expanded="false" aria-label="Abrir menú">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="contenido" class="section">
+        <div class="container stack reveal">
+            <h1>Relojes de Alta Gama</h1>
+            <p class="lead">Precisión, elegancia y tecnología en tu muñeca.</p>
+
+            <div class="carousel" aria-label="Relojes destacados">
+                <button class="prev" aria-label="Anterior">❮</button>
+
+                <div class="carousel-track-container">
+                    <div class="carousel-track">
+                        
+                        <div class="carousel-slide current-slide">
+                            <img src="images/productos/prod_38.png" alt="Seiko Mod Bruce Wayne" />
+                            <div class="carousel-caption">
+                                <h3>Seiko Mod GMT Master II "Bruce Wayne"</h3>
+                                <p>Diseño atemporal con malla de cuero genuino.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide">
+                            <img src="images/productos/prod_39.png" alt="Seiko Mod Batman" />
+                            <div class="carousel-caption">
+                                <h3>Seiko Mod GMT Master II "Batman"</h3>
+                                <p>Edición especial azul y negro.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide">
+                            <img src="images/productos/prod_40.png" alt="Seiko Mod Wimbledon" />
+                            <div class="carousel-caption">
+                                <h3>Seiko Mod Datejust "Wimbledon"</h3>
+                                <p>Esfera verde oliva y números romanos.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <button class="next" aria-label="Siguiente">❯</button>
+
+                <div class="carousel-indicators">
+                    <button aria-label="Slide 1" aria-current="true"></button>
+                    <button aria-label="Slide 2" aria-current="false"></button>
+                    <button aria-label="Slide 3" aria-current="false"></button>
+                </div>
+            </div>
+
+            <section id="productos" class="stack mt-6">
+                <div id="lista-relojes" class="grid grid-3">
+                   <div class="producto" style="cursor: pointer;" onclick="window.location.href='detalle.html?id=reloj_cl_sico'">
+                        <img src="images/productos/prod_38.png" alt="Reloj">
+                        <h3>Seiko Mods varios modelos</h3>
+                        <p class="precio">$420.000</p>
+                   </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <div class="cluster">
+                <span class="chip">📍 Palermo Soho</span>
+                <a class="chip no-under" href="contacto.html">✉️ Contacto</a>
+            </div>
+            <p class="copyright">© <span id="year"></span> Palermo Tech.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
