@@ -1131,14 +1131,7 @@ input:focus, select:focus, textarea:focus {
 
 /* 7. Puntitos indicadores */
 .carousel-indicators {
-    position: absolute;
-    bottom: 110px; /* Arriba del texto */
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    z-index: 10;
+    display: none !important;
 }
 
 .carousel-indicators button {
