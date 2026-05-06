@@ -736,10 +736,16 @@ input:focus, select:focus, textarea:focus {
     color: var(--color-text);
 }
 
+.produto p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+}
+
 .producto p {
     margin: 0;
     font-size: 0.95rem;
-    color: #333;
+    color: var(--color-text-muted);
 }
 
 .producto .precio {
@@ -1544,36 +1550,48 @@ input:focus, select:focus, textarea:focus {
 /* ── Carrusel de relojes ── */
 @media (max-width: 768px) {
     .carousel-slide {
-        height: 280px;
+        height: 300px;
     }
 
     .carousel-slide img {
-        max-width: 75%;
-        height: 80%;
+        max-width: 70%;
+        height: 65%;
+        /* Desplazar imagen hacia arriba para darle espacio al caption */
+        margin-bottom: 90px;
     }
 
     .carousel-caption {
-        padding: .75rem 1rem;
+        padding: .65rem 1rem;
+        /* Limitar la altura del caption para no invadir la imagen */
+        max-height: 90px;
     }
 
     .carousel-caption h3 {
-        font-size: 1rem;
-        margin-bottom: .2rem;
+        font-size: .95rem;
+        margin-bottom: .15rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .carousel-caption p {
-        font-size: .8rem;
+        font-size: .75rem;
+        margin: 0;
     }
 
+    /* Mover indicadores SOBRE la imagen, no sobre el texto */
     .carousel-indicators {
-        bottom: 90px;
+        bottom: 94px;
     }
 
+    /* Botones más pequeños y alejados de la zona de texto */
     .carousel .prev,
     .carousel .next {
-        width: 36px;
-        height: 36px;
-        font-size: 1rem;
+        width: 34px;
+        height: 34px;
+        font-size: .9rem;
+        /* Subir los botones para que no queden sobre el caption */
+        top: 40%;
     }
 }
 
@@ -1678,9 +1696,26 @@ input:focus, select:focus, textarea:focus {
 
 /* ── Touch targets mínimos (accesibilidad) ── */
 @media (max-width: 900px) {
-    a, button, [role="button"] {
+    /* Excluir botones del carrusel del tamaño mínimo de touch */
+    a:not(.carousel .prev):not(.carousel .next):not(.carousel-indicators button),
+    button:not(.carousel .prev):not(.carousel .next):not(.carousel-indicators button),
+    [role="button"]:not(.carousel .prev):not(.carousel .next) {
         min-height: 44px;
         min-width: 44px;
+    }
+
+    /* Botones del carrusel: tamaño fijo sin min-height grande */
+    .carousel .prev,
+    .carousel .next {
+        min-height: unset;
+        min-width: unset;
+    }
+
+    .carousel-indicators button {
+        min-height: unset;
+        min-width: unset;
+        width: 10px;
+        height: 10px;
     }
 
     .chip {
