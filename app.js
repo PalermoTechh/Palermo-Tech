@@ -996,7 +996,7 @@ const productos = {
     },
     "freezer_vertical_no_frost_230_lts": {
         "nombre": "Freezer Vertical no frost 230 LTS",
-        "precio": 1277583,
+        "precio": 1299999,
         "img": "images/productos/prod_4.jpg",
         "descripcion": "Excelente Freezer Vertical no frost 230 LTS con tecnología avanzada para conservar tus alimentos frescos por más tiempo. Cuenta con compartimientos espaciosos, control de temperatura preciso y diseño elegante que se adapta a cualquier cocina.",
         "specs": [
@@ -1009,7 +1009,7 @@ const productos = {
     },
     "heladera_c_clica_top_mount_240l_silver": {
         "nombre": "Heladera cíclica top mount 240L Silver",
-        "precio": 611680,
+        "precio": 599999,
         "img": "images/productos/prod_5.jpg",
         "descripcion": "Excelente Heladera cíclica top mount 240L Silver con tecnología avanzada para conservar tus alimentos frescos por más tiempo. Cuenta con compartimientos espaciosos, control de temperatura preciso y diseño elegante que se adapta a cualquier cocina.",
         "specs": [
@@ -1022,7 +1022,7 @@ const productos = {
     },
     "heladera_c_clica_top_mount_295l_blanca": {
         "nombre": "Heladera cíclica top mount 295L Blanca",
-        "precio": 643753,
+        "precio": 649999,
         "img": "images/productos/prod_6.jpg",
         "descripcion": "Excelente Heladera cíclica top mount 295L Blanca con tecnología avanzada para conservar tus alimentos frescos por más tiempo. Cuenta con compartimientos espaciosos, control de temperatura preciso y diseño elegante que se adapta a cualquier cocina.",
         "specs": [
@@ -1035,7 +1035,7 @@ const productos = {
     },
     "heladera_no_frost_inverter_top_mount_266l": {
         "nombre": "Heladera no frost inverter top mount 266L",
-        "precio": 717723,
+        "precio": 699999,
         "img": "images/productos/prod_7.jpg",
         "descripcion": "Excelente Heladera no frost inverter top mount 266L con tecnología avanzada para conservar tus alimentos frescos por más tiempo. Cuenta con compartimientos espaciosos, control de temperatura preciso y diseño elegante que se adapta a cualquier cocina.",
         "specs": [
@@ -1048,7 +1048,7 @@ const productos = {
     },
     "heladera_no_frost_inverter_top_mount_470l": {
         "nombre": "Heladera no frost inverter top mount 470L",
-        "precio": 1200823,
+        "precio": 1299999,
         "img": "images/productos/prod_8.jpg",
         "descripcion": "Excelente Heladera no frost inverter top mount 470L con tecnología avanzada para conservar tus alimentos frescos por más tiempo. Cuenta con compartimientos espaciosos, control de temperatura preciso y diseño elegante que se adapta a cualquier cocina.",
         "specs": [
@@ -1061,7 +1061,7 @@ const productos = {
     },
     "heladera_no_frost_inverter_side_by_side_510l": {
         "nombre": "Heladera no frost inverter side by side 510L",
-        "precio": 1500409,
+        "precio": 1449999,
         "img": "images/productos/prod_9.jpg",
         "descripcion": "Excelente Heladera no frost inverter side by side 510L con tecnología avanzada para conservar tus alimentos frescos por más tiempo. Cuenta con compartimientos espaciosos, control de temperatura preciso y diseño elegante que se adapta a cualquier cocina.",
         "specs": [
@@ -1074,7 +1074,7 @@ const productos = {
     },
     "lavarropas_6_kg_titanium": {
         "nombre": "Lavarropas 6 KG Titanium",
-        "precio": 580522,
+        "precio": 549999,
         "img": "images/productos/prod_10.png",
         "descripcion": "El Lavarropas 6 KG Titanium ofrece múltiples programas para el cuidado óptimo de tu hogar. Incluye funciones de ciclo rápido, bajo consumo de agua y sistema de protección, garantizando una limpieza profunda y eficiente.",
         "specs": [
@@ -1087,7 +1087,7 @@ const productos = {
     },
     "lavarropas_6_kg_blanco": {
         "nombre": "Lavarropas 6 KG Blanco",
-        "precio": 550382,
+        "precio": 509999,
         "img": "images/productos/prod_11.png",
         "descripcion": "El Lavarropas 6 KG Blanco ofrece múltiples programas para el cuidado óptimo de tu hogar. Incluye funciones de ciclo rápido, bajo consumo de agua y sistema de protección, garantizando una limpieza profunda y eficiente.",
         "specs": [
@@ -1098,11 +1098,11 @@ const productos = {
         ],
         "currency": "ARS"
     },
-    "lavarropas_lunar_inverter_10_5kg_titanium_wifi": {
-        "nombre": "Lavarropas Lunar Inverter 10.5KG Titanium WIFI",
-        "precio": 790662,
+    "lavarropas_lunar_inverter_11.5kg_titanium_wifi": {
+        "nombre": "Lavarropas Lunar Inverter 11.5KG Titanium WIFI",
+        "precio": 839999,
         "img": "images/productos/prod_12.webp",
-        "descripcion": "El Lavarropas Lunar Inverter 10.5KG Titanium WIFI ofrece múltiples programas para el cuidado óptimo de tu hogar. Incluye funciones de ciclo rápido, bajo consumo de agua y sistema de protección, garantizando una limpieza profunda y eficiente.",
+        "descripcion": "El Lavarropas Lunar Inverter 11.5KG Titanium WIFI ofrece múltiples programas para el cuidado óptimo de tu hogar. Incluye funciones de ciclo rápido, bajo consumo de agua y sistema de protección, garantizando una limpieza profunda y eficiente.",
         "specs": [
             "Múltiples programas automáticos",
             "Tambor de acero inoxidable",
@@ -1113,7 +1113,7 @@ const productos = {
     },
     "lavarropas_lunar_inverter_8kg_titanium_wifi": {
         "nombre": "Lavarropas Lunar Inverter 8KG Titanium WIFI",
-        "precio": 700892,
+        "precio": 729999,
         "img": "images/productos/prod_13.png",
         "descripcion": "El Lavarropas Lunar Inverter 8KG Titanium WIFI ofrece múltiples programas para el cuidado óptimo de tu hogar. Incluye funciones de ciclo rápido, bajo consumo de agua y sistema de protección, garantizando una limpieza profunda y eficiente.",
         "specs": [
@@ -1126,7 +1126,7 @@ const productos = {
     },
     "lavavajillas_silver_12_cubiertos": {
         "nombre": "Lavavajillas Silver 12 cubiertos",
-        "precio": 625480,
+        "precio": 699999,
         "img": "images/productos/prod_14.jpg",
         "descripcion": "El Lavavajillas Silver 12 cubiertos ofrece múltiples programas para el cuidado óptimo de tu hogar. Incluye funciones de ciclo rápido, bajo consumo de agua y sistema de protección, garantizando una limpieza profunda y eficiente.",
         "specs": [
@@ -1139,7 +1139,7 @@ const productos = {
     },
     "lavavajillas_inox_14_cubiertos": {
         "nombre": "Lavavajillas Inox 14 cubiertos",
-        "precio": 870698,
+        "precio": 889999,
         "img": "images/productos/prod_15.jpg",
         "descripcion": "El Lavavajillas Inox 14 cubiertos ofrece múltiples programas para el cuidado óptimo de tu hogar. Incluye funciones de ciclo rápido, bajo consumo de agua y sistema de protección, garantizando una limpieza profunda y eficiente.",
         "specs": [
@@ -1152,7 +1152,7 @@ const productos = {
     },
     "aspiradora_robot_laser_smart_trapeadora": {
         "nombre": "Aspiradora Robot Laser Smart trapeadora",
-        "precio": 733844,
+        "precio": 679999,
         "img": "images/productos/prod_16.jpg",
         "descripcion": "Aspiradora Robot Laser Smart trapeadora de alto rendimiento diseñada para una limpieza profunda. Sistema de filtrado avanzado y accesorios múltiples para llegar a cualquier rincón del hogar.",
         "specs": [
@@ -1165,7 +1165,7 @@ const productos = {
     },
     "aspiradora_s_bolsa_1400w_blue": {
         "nombre": "Aspiradora S/Bolsa 1400W Blue",
-        "precio": 160016,
+        "precio": 149999,
         "img": "images/productos/prod_17.jpg",
         "descripcion": "Aspiradora S/Bolsa 1400W Blue de alto rendimiento diseñada para una limpieza profunda. Sistema de filtrado avanzado y accesorios múltiples para llegar a cualquier rincón del hogar.",
         "specs": [
@@ -1178,7 +1178,7 @@ const productos = {
     },
     "aspiradora_s_bolsa_2000w_flat_blue": {
         "nombre": "Aspiradora S/Bolsa 2000W Flat Blue",
-        "precio": 240869,
+        "precio": 189999,
         "img": "images/productos/prod_18.jpg",
         "descripcion": "Aspiradora S/Bolsa 2000W Flat Blue de alto rendimiento diseñada para una limpieza profunda. Sistema de filtrado avanzado y accesorios múltiples para llegar a cualquier rincón del hogar.",
         "specs": [
@@ -1191,7 +1191,7 @@ const productos = {
     },
     "aspiradora_stick_inal_mbrica_2_en_1": {
         "nombre": "Aspiradora Stick inalámbrica 2 en 1",
-        "precio": 250627,
+        "precio": 239999,
         "img": "images/productos/prod_19.jpg",
         "descripcion": "Aspiradora Stick inalámbrica 2 en 1 de alto rendimiento diseñada para una limpieza profunda. Sistema de filtrado avanzado y accesorios múltiples para llegar a cualquier rincón del hogar.",
         "specs": [
@@ -1204,7 +1204,7 @@ const productos = {
     },
     "aire_acondicionado_2503_frigor_as": {
         "nombre": "Aire acondicionado 2503 frigorías",
-        "precio": 750654,
+        "precio": 909999,
         "img": "images/productos/prod_20.jpg",
         "descripcion": "Aire acondicionado 2503 frigorías de calidad garantizada por Palermo Tech. Construido con materiales premium y tecnología de punta para asegurar un rendimiento óptimo y duradero.",
         "specs": [
@@ -1217,7 +1217,7 @@ const productos = {
     },
     "ventilador_de_pie_blanco": {
         "nombre": "Ventilador de pie blanco",
-        "precio": 140310,
+        "precio": 119999,
         "img": "images/productos/prod_21.webp",
         "descripcion": "Ventilador de pie blanco de calidad garantizada por Palermo Tech. Construido con materiales premium y tecnología de punta para asegurar un rendimiento óptimo y duradero.",
         "specs": [
@@ -1230,7 +1230,7 @@ const productos = {
     },
     "ventilador_de_pie_negro_20": {
         "nombre": "Ventilador de pie negro 20",
-        "precio": 99891,
+        "precio": 99999,
         "img": "images/productos/prod_22.jpg",
         "descripcion": "Ventilador de pie negro 20 de calidad garantizada por Palermo Tech. Construido con materiales premium y tecnología de punta para asegurar un rendimiento óptimo y duradero.",
         "specs": [
@@ -1243,7 +1243,7 @@ const productos = {
     },
     "tostadora_el_ctrica": {
         "nombre": "Tostadora eléctrica",
-        "precio": 50213,
+        "precio": 49999,
         "img": "images/productos/prod_23.jpg",
         "descripcion": "Tostadora eléctrica con diseño compacto y moderno. Preparación rápida y sencilla para facilitar tu día a día en la cocina con la máxima calidad y durabilidad.",
         "specs": [
@@ -1256,7 +1256,7 @@ const productos = {
     },
     "cafetera_1_25l_negra": {
         "nombre": "Cafetera 1.25L negra",
-        "precio": 65271,
+        "precio": 65999,
         "img": "images/productos/prod_24.jpg",
         "descripcion": "Cafetera 1.25L negra con diseño compacto y moderno. Preparación rápida y sencilla para facilitar tu día a día en la cocina con la máxima calidad y durabilidad.",
         "specs": [
@@ -1269,7 +1269,7 @@ const productos = {
     },
     "batidora_de_mano_negra": {
         "nombre": "Batidora de mano negra",
-        "precio": 75766,
+        "precio": 65999,
         "img": "images/productos/prod_25.jpg",
         "descripcion": "Batidora de mano negra con diseño compacto y moderno. Preparación rápida y sencilla para facilitar tu día a día en la cocina con la máxima calidad y durabilidad.",
         "specs": [
@@ -1282,7 +1282,7 @@ const productos = {
     },
     "licuadora_800w_inox": {
         "nombre": "Licuadora 800W Inox",
-        "precio": 120528,
+        "precio": 89999,
         "img": "images/productos/prod_26.jpg",
         "descripcion": "Licuadora 800W Inox con diseño compacto y moderno. Preparación rápida y sencilla para facilitar tu día a día en la cocina con la máxima calidad y durabilidad.",
         "specs": [
@@ -1295,7 +1295,7 @@ const productos = {
     },
     "campana_extractora_de_humo_inox": {
         "nombre": "Campana extractora de humo Inox",
-        "precio": 450045,
+        "precio": 309999,
         "img": "images/productos/prod_27.webp",
         "descripcion": "Campana extractora de humo Inox de calidad garantizada por Palermo Tech. Construido con materiales premium y tecnología de punta para asegurar un rendimiento óptimo y duradero.",
         "specs": [
@@ -1308,7 +1308,7 @@ const productos = {
     },
     "anafe_el_ctrico_negro": {
         "nombre": "Anafe eléctrico negro",
-        "precio": 490000,
+        "precio": 349999,
         "img": "images/productos/prod_28.webp",
         "descripcion": "Anafe eléctrico negro de calidad garantizada por Palermo Tech. Construido con materiales premium y tecnología de punta para asegurar un rendimiento óptimo y duradero.",
         "specs": [
@@ -1321,7 +1321,7 @@ const productos = {
     },
     "air_fryer_4_5l": {
         "nombre": "Air Fryer 4.5L",
-        "precio": 90721,
+        "precio": 99999,
         "img": "images/productos/prod_29.jpg",
         "descripcion": "Air Fryer 4.5L de calidad garantizada por Palermo Tech. Construido con materiales premium y tecnología de punta para asegurar un rendimiento óptimo y duradero.",
         "specs": [
@@ -1334,7 +1334,7 @@ const productos = {
     },
     "air_fryer_11l_negra_smart_digital": {
         "nombre": "Air Fryer 11L negra smart digital",
-        "precio": 320505,
+        "precio": 269999,
         "img": "images/productos/prod_30.webp",
         "descripcion": "Air Fryer 11L negra smart digital de calidad garantizada por Palermo Tech. Construido con materiales premium y tecnología de punta para asegurar un rendimiento óptimo y duradero.",
         "specs": [
@@ -1347,7 +1347,7 @@ const productos = {
     },
     "licuadora_de_mano": {
         "nombre": "Licuadora de mano",
-        "precio": 160419,
+        "precio": 99999,
         "img": "images/productos/prod_31.jpg",
         "descripcion": "Licuadora de mano con diseño compacto y moderno. Preparación rápida y sencilla para facilitar tu día a día en la cocina con la máxima calidad y durabilidad.",
         "specs": [
@@ -1358,11 +1358,11 @@ const productos = {
         ],
         "currency": "ARS"
     },
-    "horno_a_microondas_25_lts_digital_con_grill": {
-        "nombre": "Horno a microondas 25 LTS digital con grill",
-        "precio": 188591,
+    "horno_a_microondas_20_lts_digital_con_grill": {
+        "nombre": "Horno a microondas 20 LTS digital con grill",
+        "precio": 189999,
         "img": "images/productos/prod_32.jpg",
-        "descripcion": "Horno a microondas 25 LTS digital con grill digital de alta potencia. Con niveles de cocción ajustables, descongelado rápido y diseño moderno. Ideal para calentar y preparar tus comidas en minutos.",
+        "descripcion": "Horno a microondas 20 LTS digital con grill digital de alta potencia. Con niveles de cocción ajustables, descongelado rápido y diseño moderno. Ideal para calentar y preparar tus comidas en minutos.",
         "specs": [
             "Panel digital intuitivo",
             "Descongelado por peso",
@@ -1373,7 +1373,7 @@ const productos = {
     },
     "pava_el_ctrica_1_7l_inox_digital": {
         "nombre": "Pava eléctrica 1.7L Inox digital",
-        "precio": 150956,
+        "precio": 69999,
         "img": "images/productos/prod_33.jpg",
         "descripcion": "Pava eléctrica 1.7L Inox digital de calidad garantizada por Palermo Tech. Construido con materiales premium y tecnología de punta para asegurar un rendimiento óptimo y duradero.",
         "specs": [
@@ -1384,11 +1384,11 @@ const productos = {
         ],
         "currency": "ARS"
     },
-    "horno_el_ctrico_grill_40l": {
-        "nombre": "Horno eléctrico grill 40L",
-        "precio": 388749,
+    "horno_el_ctrico_grill_32l": {
+        "nombre": "Horno eléctrico grill 32L",
+        "precio": 199999,
         "img": "images/productos/prod_34.webp",
-        "descripcion": "Horno eléctrico grill 40L de calidad garantizada por Palermo Tech. Construido con materiales premium y tecnología de punta para asegurar un rendimiento óptimo y duradero.",
+        "descripcion": "Horno eléctrico grill 32L de calidad garantizada por Palermo Tech. Construido con materiales premium y tecnología de punta para asegurar un rendimiento óptimo y duradero.",
         "specs": [
             "Calidad premium",
             "Excelente rendimiento",
@@ -1399,7 +1399,7 @@ const productos = {
     },
     "tostadora_el_ctrica_negra": {
         "nombre": "Tostadora eléctrica negra",
-        "precio": 130146,
+        "precio": 59999,
         "img": "images/productos/prod_35.jpg",
         "descripcion": "Tostadora eléctrica negra con diseño compacto y moderno. Preparación rápida y sencilla para facilitar tu día a día en la cocina con la máxima calidad y durabilidad.",
         "specs": [
@@ -1477,14 +1477,14 @@ const productos = {
     },
     "airpods_pro_2": {
         "nombre": "Airpods Pro 2",
-        "precio": 39999,
+        "precio": 45000,
         "img": "images/productos/prod_41.jpg",
-        "descripcion": "Accesorio de primera línea: Airpods Pro 2. Diseñado para brindarte la máxima compatibilidad y rendimiento superior.",
+        "descripcion": "Airpods pro 2 OEM,cuentan con todas las funciones de los airpods originales,pero a diferencia de los originales haciendolo a un costo MUY BAJO.Cuentan con localizacion,cancelacion de ruido REAL  Y modo ambiente. Una bateria muy buena que te dura unas 6 horas de uso seguido.",
         "specs": [
-            "Alta compatibilidad",
-            "Materiales duraderos",
-            "Excelente calidad",
-            "Original sellado"
+            "Funciones exclusivas",
+            "excelente calidad de sonido",
+            "excelente calidad de materiales",
+            "excelente calidad de bateria"
         ],
         "currency": "ARS"
     },
@@ -1529,7 +1529,7 @@ const productos = {
     },
     "macbook_neo_256gb": {
         "nombre": "Macbook Neo 256GB",
-        "precio": 820,
+        "precio": 850,
         "img": "images/productos/macbook-neo.webp",
         "descripcion": "Equipo portátil Macbook Neo 256GB diseñado para máxima productividad y entretenimiento. Con procesador de vanguardia, pantalla brillante y diseño ultradelgado para llevar tu creatividad a todas partes. Colores: citrus, indigo, blush.",
         "specs": [
@@ -1542,7 +1542,7 @@ const productos = {
     },
     "macbook_neo_512gb": {
         "nombre": "Macbook Neo 512GB",
-        "precio": 900,
+        "precio": 950,
         "img": "images/productos/macbook-neo.webp",
         "descripcion": "Equipo portátil Macbook Neo 512GB diseñado para máxima productividad y entretenimiento. Con procesador de vanguardia, pantalla brillante y diseño ultradelgado para llevar tu creatividad a todas partes. Colores: citrus, indigo, silver, blush.",
         "specs": [
@@ -1555,7 +1555,7 @@ const productos = {
     },
     "ipad_a16_wifi_128gb": {
         "nombre": "iPad A16 WiFi 128GB",
-        "precio": 490,
+        "precio": 540,
         "img": "images/productos/ipad 11.webp",
         "descripcion": "Equipo portátil iPad A16 WiFi 128GB diseñado para máxima productividad y entretenimiento. Con procesador de vanguardia, pantalla brillante y diseño ultradelgado para llevar tu creatividad a todas partes. Colores: yellow, blue, pink.",
         "specs": [
@@ -1581,7 +1581,7 @@ const productos = {
     },
     "sony_ps5_fisica_1tb": {
         "nombre": "Sony PS5 Fisica 1TB",
-        "precio": 780,
+        "precio": 830,
         "img": "images/productos/ps5-slim fisica.jpg",
         "descripcion": "Sony PS5 Fisica 1TB para disfrutar del mejor entretenimiento. Sumérgete en mundos increíbles con gráficos de última generación, tiempos de carga rápidos y un rendimiento excepcional.",
         "specs": [
@@ -1594,7 +1594,7 @@ const productos = {
     },
     "sony_ps5_digital_825gb": {
         "nombre": "Sony PS5 Digital 825GB",
-        "precio": 700,
+        "precio": 760,
         "img": "images/productos/playstation 5 digital.webp",
         "descripcion": "Sony PS5 Digital 825GB para disfrutar del mejor entretenimiento. Sumérgete en mundos increíbles con gráficos de última generación, tiempos de carga rápidos y un rendimiento excepcional.",
         "specs": [
@@ -1607,7 +1607,7 @@ const productos = {
     },
     "sony_ps5_digital_astro_1tb": {
         "nombre": "Sony PS5 Digital Astro Bot + Gran Turismo 1TB",
-        "precio": 750,
+        "precio": 790,
         "img": "images/productos/playstation 5 astrobot.png",
         "descripcion": "Sony PS5 Digital Astro Bot + Gran Turismo 1TB para disfrutar del mejor entretenimiento. Sumérgete en mundos increíbles con gráficos de última generación, tiempos de carga rápidos y un rendimiento excepcional.",
         "specs": [
@@ -1668,6 +1668,24 @@ const productos = {
             "Acero inoxidable de grado quirúrgico",
             "Garantía oficial y estuche premium"
         ],
+        "currency": "ARS"
+    }
+    ,
+    "airpods_pro_3": {
+        "nombre": "Airpods Pro 3 Originales",
+        "precio": 599999,
+        "img": "images/productos/prod_41.jpg",
+        "descripcion": "AirPods Pro (3.ª generación) Originales. Disfrutá de un sonido premium, cancelación activa de ruido, modo Ambiente y un ajuste cómodo para todo el día. Con conexión rápida a dispositivos Apple, audio de alta calidad y un estuche de carga para mayor autonomía.",
+        "specs": ["Originales", "Garantía", "Alta calidad"],
+        "currency": "ARS"
+    }
+,
+    "lavavajillas_blanco_14_cubiertos": {
+        "nombre": "Lavavajillas Blanco 14 cubiertos",
+        "precio": 699999,
+        "img": "images/productos/imagen lavavajillas blanco 14.webp",
+        "descripcion": "Excelente Lavavajillas Blanco 14 cubiertos con la mejor calidad garantizada por Palermo Tech.",
+        "specs": ["Producto original", "Garantía de 6 meses", "Envío a todo el país"],
         "currency": "ARS"
     }
 };
