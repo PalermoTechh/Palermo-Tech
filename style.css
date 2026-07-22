@@ -132,6 +132,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: .75rem 0;
+    flex-wrap: wrap;
 }
 
 /* ESTILO DEL LOGO CORREGIDO A NEGRO */
@@ -1437,5 +1438,6 @@ input:focus, select:focus, textarea:focus {
         margin-right: 0;
         margin-top: 1rem;
         margin-bottom: 0.5rem;
+        order: 3;
     }
 }
