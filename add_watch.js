@@ -7,10 +7,10 @@ const match = appJs.match(/const productos\s*=\s*(\{[\s\S]*?\});?\s*$/);
 if (match) {
     let productos = new Function("return " + match[1])();
 
-    if (!productos['reloj_cl_sico']) {
-        productos['reloj_cl_sico'] = {
+    if (!productos['reloj_seiko_mods']) {
+        productos['reloj_seiko_mods'] = {
             "nombre": "Seiko Mods (varios modelos)",
-            "precio": 420000,
+            "precio": 499999,
             "img": "images/productos/prod_38.png",
             "descripcion": "Relojes de alta gama de la serie Seiko Mods, diseñados para destacar. Personalizados con los más altos estándares, ofrecen maquinaria automática de precisión, cristal de zafiro y un estilo que combina la elegancia clásica con el diseño deportivo.",
             "specs": [
