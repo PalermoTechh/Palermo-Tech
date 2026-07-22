@@ -777,7 +777,76 @@ document.addEventListener('DOMContentLoaded', () => {
     initContacto();
     initChatbot();
     initDetalle();
+    initGlobalSearch();
 });
+
+function initGlobalSearch() {
+    const navActions = document.querySelector('.nav-actions');
+    if (!navActions) return;
+
+    // Crear el HTML del buscador
+    const searchContainer = document.createElement('div');
+    searchContainer.className = 'global-search-container';
+    searchContainer.innerHTML = `
+        <input type="text" id="global-search-input" placeholder="Buscar productos..." autocomplete="off">
+        <div id="global-search-results" class="global-search-results" hidden></div>
+    `;
+
+    // Insertar antes de .nav-actions
+    navActions.parentNode.insertBefore(searchContainer, navActions);
+
+    const input = document.getElementById('global-search-input');
+    const resultsContainer = document.getElementById('global-search-results');
+
+    // Escuchar input
+    input.addEventListener('input', (e) => {
+        const query = e.target.value.trim().toLowerCase();
+        
+        if (!query) {
+            resultsContainer.hidden = true;
+            return;
+        }
+
+        let matches = [];
+        if (typeof productos !== 'undefined') {
+            matches = Object.entries(productos).filter(([id, prod]) => {
+                const nombre = (prod.nombre || '').toLowerCase();
+                const desc = (prod.descripcion || '').toLowerCase();
+                return nombre.includes(query) || desc.includes(query);
+            });
+        }
+
+        if (matches.length > 0) {
+            resultsContainer.innerHTML = matches.slice(0, 8).map(([id, prod]) => `
+                <a href="detalle.html?id=${id}" class="search-result-item">
+                    <img src="${prod.img || ''}" alt="${prod.nombre}">
+                    <div class="search-result-info">
+                        <h4>${prod.nombre}</h4>
+                        <span class="search-result-price">${prod.currency === 'USD' ? 'US$' : '$'}${formatPrice(prod.precio)}</span>
+                    </div>
+                </a>
+            `).join('');
+            resultsContainer.hidden = false;
+        } else {
+            resultsContainer.innerHTML = `<div class="search-result-empty">No se encontraron productos para "${query}"</div>`;
+            resultsContainer.hidden = false;
+        }
+    });
+
+    // Cerrar al hacer clic fuera
+    document.addEventListener('click', (e) => {
+        if (!searchContainer.contains(e.target)) {
+            resultsContainer.hidden = true;
+        }
+    });
+
+    // Mostrar resultados si hay al hacer clic en el input
+    input.addEventListener('click', () => {
+        if (input.value.trim() && resultsContainer.innerHTML !== '') {
+            resultsContainer.hidden = false;
+        }
+    });
+}
 
 function parsePrecio(texto) {
     if (!texto) return 0;
@@ -788,7 +857,7 @@ function parsePrecio(texto) {
 const productos = {
     "iphone_17_256gb": {
         "nombre": "iPhone 17 256GB",
-        "precio": 999,
+        "precio": 900,
         "img": "images/productos/iphone 17.webp",
         "descripcion": "Smartphone iPhone 17 256GB de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Colores: white, blue, lavander, sage, black.",
         "specs": [
@@ -801,7 +870,7 @@ const productos = {
     },
     "iphone_17_pro_256gb": {
         "nombre": "iPhone 17 Pro 256GB",
-        "precio": 1260,
+        "precio": 1360,
         "img": "images/productos/iphone 17 pro.webp",
         "descripcion": "Smartphone iPhone 17 Pro 256GB de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Colores: silver, orange, blue.",
         "specs": [
@@ -814,7 +883,7 @@ const productos = {
     },
     "iphone_17_pro_max_256gb_blue_silver": {
         "nombre": "iPhone 17 Pro Max 256GB (Blue, Silver)",
-        "precio": 1370,
+        "precio": 1510,
         "img": "images/productos/iphone 17 pro max.webp",
         "descripcion": "Smartphone iPhone 17 Pro Max 256GB (Blue, Silver) de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Colores: blue, silver.",
         "specs": [
@@ -827,7 +896,7 @@ const productos = {
     },
     "iphone_17_pro_max_256gb_orange": {
         "nombre": "iPhone 17 Pro Max 256GB (Orange)",
-        "precio": 1360,
+        "precio": 1500,
         "img": "images/productos/iphone 17 pro max orange.webp",
         "descripcion": "Smartphone iPhone 17 Pro Max 256GB (Orange) de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Color: orange.",
         "specs": [
@@ -866,7 +935,7 @@ const productos = {
     },
     "samsung_s26_ultra_256gb": {
         "nombre": "Samsung S26 Ultra 256GB",
-        "precio": 1180,
+        "precio": 1250,
         "img": "images/productos/galaxy-s26-ultra-.jpg",
         "descripcion": "Smartphone Samsung S26 Ultra 256GB de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Colores: violet, black, blue.",
         "specs": [
@@ -879,7 +948,7 @@ const productos = {
     },
     "samsung_s26_ultra_512gb": {
         "nombre": "Samsung S26 Ultra 512GB",
-        "precio": 1260,
+        "precio": 1360,
         "img": "images/productos/galaxy-s26-ultra-.jpg",
         "descripcion": "Smartphone Samsung S26 Ultra 512GB de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Colores: black, blue.",
         "specs": [
@@ -957,7 +1026,7 @@ const productos = {
     },
     "pococ75": {
         "nombre": "Poco C75",
-        "precio": 319999,
+        "precio": 299999,
         "img": "images/productos/prod_3.jpg",
         "descripcion": "Smartphone Poco C75 de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día.",
         "specs": [
@@ -970,7 +1039,7 @@ const productos = {
     },
     "redmi_15c": {
         "nombre": "Redmi 15C",
-        "precio": 339999,
+        "precio": 319999,
         "img": "images/productos/prod_1.jpg",
         "descripcion": "Smartphone Redmi 15C de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día.",
         "specs": [
@@ -983,7 +1052,7 @@ const productos = {
     },
     "redmi_14c": {
         "nombre": "Redmi 14C",
-        "precio": 299999,
+        "precio": 279999,
         "img": "images/productos/prod_2.jpg",
         "descripcion": "Smartphone Redmi 14C de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día.",
         "specs": [
@@ -1675,7 +1744,7 @@ const productos = {
         "nombre": "Airpods Pro 3 Originales",
         "precio": 599999,
         "img": "images/productos/prod_41.jpg",
-        "descripcion": "AirPods Pro (3.ª generación) Originales. Disfrutá de un sonido premium, cancelación activa de ruido, modo Ambiente y un ajuste cómodo para todo el día. Con conexión rápida a dispositivos Apple, audio de alta calidad y un estuche de carga para mayor autonomía.",
+        "descripcion": "Airpods Pro 3 Originales",
         "specs": ["Originales", "Garantía", "Alta calidad"],
         "currency": "ARS"
     }
