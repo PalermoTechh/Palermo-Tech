@@ -801,7 +801,7 @@ function initGlobalSearch() {
     // Escuchar input
     input.addEventListener('input', (e) => {
         const query = e.target.value.trim().toLowerCase();
-        
+
         if (!query) {
             resultsContainer.hidden = true;
             return;
@@ -1518,11 +1518,11 @@ const productos = {
         ],
         "currency": "ARS"
     },
-    "auriculares_bluetooth": {
-        "nombre": "Auriculares Pro",
+    "Airpods Pro 2 OEM": {
+        "nombre": "Airpods pro 2 OEM",
         "precio": 45000,
         "img": "images/productos/prod_41.jpg",
-        "descripcion": "Auriculares Pro con tecnología avanzada. Ofrecen cancelación de ruido activa para sumergirte en tu música sin distracciones externas y una batería de larga duración.",
+        "descripcion": "Airpods pro 2 OEM,cuentan con todas las funciones de los airpods originales,pero a diferencia de los originales haciendolo a un costo MUY BAJO.Cuentan con localizacion,cancelacion de ruido REAL  Y modo ambiente. Una bateria muy buena que te dura unas 6 horas de uso seguido.",
         "specs": [
             "Cancelación de ruido activa",
             "Conexión Bluetooth 5.0",
@@ -1545,7 +1545,7 @@ const productos = {
         "currency": "ARS"
     },
     "airpods_pro_2": {
-        "nombre": "Airpods Pro 2",
+        "nombre": "Airpods Pro 2 OEM",
         "precio": 45000,
         "img": "images/productos/prod_41.jpg",
         "descripcion": "Airpods pro 2 OEM,cuentan con todas las funciones de los airpods originales,pero a diferencia de los originales haciendolo a un costo MUY BAJO.Cuentan con localizacion,cancelacion de ruido REAL  Y modo ambiente. Una bateria muy buena que te dura unas 6 horas de uso seguido.",
@@ -1726,9 +1726,9 @@ const productos = {
         ],
         "currency": "USD"
     },
-    "reloj_cl_sico": {
+    "reloj_seiko_mods": {
         "nombre": "Seiko Mods (varios modelos)",
-        "precio": 420000,
+        "precio": 499999,
         "img": "images/productos/prod_38.png",
         "descripcion": "Relojes de alta gama de la serie Seiko Mods, diseñados para destacar. Personalizados con los más altos estándares, ofrecen maquinaria automática de precisión, cristal de zafiro y un estilo que combina la elegancia clásica con el diseño deportivo.",
         "specs": [
@@ -1748,7 +1748,7 @@ const productos = {
         "specs": ["Originales", "Garantía", "Alta calidad"],
         "currency": "ARS"
     }
-,
+    ,
     "lavavajillas_blanco_14_cubiertos": {
         "nombre": "Lavavajillas Blanco 14 cubiertos",
         "precio": 699999,
