@@ -1280,7 +1280,7 @@ input:focus, select:focus, textarea:focus {
 
 .detail-desc {
     font-size: 0.85rem;
-    color: var(--color-text-muted);
+    color: var(--color-text) !important;
     line-height: 1.55;
     margin: 0;
 }
@@ -1295,7 +1295,7 @@ input:focus, select:focus, textarea:focus {
 
 .detail-specs li {
     font-size: 0.82rem;
-    color: var(--color-text);
+    color: var(--color-text) !important;
     font-weight: 500;
     display: flex;
     align-items: center;
