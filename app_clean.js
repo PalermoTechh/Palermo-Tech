@@ -740,7 +740,7 @@ const productos = {
     /* ====== CELULARES ====== */
     "iphone_17_256gb": {
         "nombre": "iPhone 17 256GB",
-        "precio": 900,
+        "precio": 999,
         "img": "images/productos/iphone 17.webp",
         "descripcion": "El iPhone 17 con chip A19 Bionic, cámara de 48MP y diseño ultrafino. Sellado de fábrica con garantía.",
         "specs": ["Chip A19 Bionic", "Cámara 48MP", "256GB almacenamiento", "iOS 19", "Sellado de fábrica", "Garantía oficial"],
@@ -748,7 +748,7 @@ const productos = {
     },
     "iphone_17_pro_256gb": {
         "nombre": "iPhone 17 Pro 256GB",
-        "precio": 1360,
+        "precio": 1200,
         "img": "images/productos/iphone 17 pro.webp",
         "descripcion": "iPhone 17 Pro con chip A19 Pro, sistema de cámaras Pro de 48MP+12MP+12MP y pantalla ProMotion 120Hz.",
         "specs": ["Chip A19 Pro", "Triple cámara Pro 48MP", "ProMotion 120Hz", "256GB", "Titanio", "Sellado de fábrica"],
@@ -756,7 +756,7 @@ const productos = {
     },
     "iphone_17_pro_max_256gb_blue_silver": {
         "nombre": "iPhone 17 Pro Max 256GB (Blue, Silver)",
-        "precio": 1510,
+        "precio": 1340,
         "img": "images/productos/iphone 17 pro max.webp",
         "descripcion": "El iPhone más potente, con pantalla de 6.9\", batería de mayor duración y cámara de 48MP con zoom óptico 5x.",
         "specs": ["Pantalla 6.9\" OLED", "Chip A19 Pro", "Zoom óptico 5x", "256GB", "Color Blue/Silver", "Sellado"],
@@ -764,7 +764,7 @@ const productos = {
     },
     "iphone_17_pro_max_256gb_orange": {
         "nombre": "iPhone 17 Pro Max 256GB (Orange)",
-        "precio": 1500,
+        "precio": 1330,
         "img": "images/productos/iphone 17 pro max orange.webp",
         "descripcion": "iPhone 17 Pro Max en color Desert Orange exclusivo. Máxima potencia y estilo en tu mano.",
         "specs": ["Pantalla 6.9\" OLED", "Chip A19 Pro", "Zoom óptico 5x", "256GB", "Color Desert Orange", "Sellado"],
@@ -788,7 +788,7 @@ const productos = {
     },
     "samsung_s26_ultra_256gb": {
         "nombre": "Samsung S26 Ultra 256GB",
-        "precio": 1250,
+        "precio": 1180,
         "img": "images/productos/galaxy-s26-ultra-.jpg",
         "descripcion": "Samsung Galaxy S26 Ultra con S Pen integrado, cámara de 200MP y pantalla Dynamic AMOLED 2X de 6.9\".",
         "specs": ["Cámara 200MP", "S Pen integrado", "Pantalla 6.9\" 120Hz", "256GB + 12GB RAM", "Batería 5000mAh"],
@@ -796,7 +796,7 @@ const productos = {
     },
     "samsung_s26_ultra_512gb": {
         "nombre": "Samsung S26 Ultra 512GB",
-        "precio": 1360,
+        "precio": 1260,
         "img": "images/productos/galaxy-s26-ultra-.jpg",
         "descripcion": "Samsung Galaxy S26 Ultra en versión 512GB. El máximo almacenamiento para profesionales y creadores.",
         "specs": ["Cámara 200MP", "S Pen integrado", "512GB + 12GB RAM", "Pantalla 6.9\" 120Hz", "Galaxy AI"],
@@ -844,7 +844,7 @@ const productos = {
     },
     "pococ75": {
         "nombre": "Poco C75",
-        "precio": 299999,
+        "precio": 319999,
         "img": "images/productos/prod_3.jpg",
         "descripcion": "Poco C75 con gran batería de 5160mAh, pantalla de 6.88\" y cámara de 50MP. Relación precio/calidad imbatible.",
         "specs": ["Batería 5160mAh 18W", "Pantalla 6.88\" 120Hz", "Cámara 50MP", "128GB / 8GB RAM", "HyperOS"],
@@ -853,7 +853,7 @@ const productos = {
     /* ====== ANTERIORES ====== */
     "redmi_15c": {
         "nombre": "Redmi 15C",
-        "precio": 319999,
+        "precio": 349999,
         "img": "images/productos/prod_1.jpg",
         "descripcion": "Excelente Redmi 15C con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -866,7 +866,7 @@ const productos = {
 
     "redmi_14c": {
         "nombre": "Redmi 14C",
-        "precio": 279999,
+        "precio": 299999,
         "img": "images/productos/prod_2.jpg",
         "descripcion": "Excelente Redmi 14C con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -878,7 +878,7 @@ const productos = {
     },
     "freezer_vertical_no_frost_230_lts": {
         "nombre": "Freezer Vertical no frost 230 LTS",
-        "precio": 1277583,
+        "precio": 1299999,
         "img": "images/productos/prod_4.jpg",
         "descripcion": "Excelente Freezer Vertical no frost 230 LTS con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -890,7 +890,7 @@ const productos = {
     },
     "heladera_c_clica_top_mount_240l_silver": {
         "nombre": "Heladera cíclica top mount 240L Silver",
-        "precio": 611680,
+        "precio": 599999,
         "img": "images/productos/prod_5.jpg",
         "descripcion": "Excelente Heladera cíclica top mount 240L Silver con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -902,7 +902,7 @@ const productos = {
     },
     "heladera_c_clica_top_mount_295l_blanca": {
         "nombre": "Heladera cíclica top mount 295L Blanca",
-        "precio": 643753,
+        "precio": 649999,
         "img": "images/productos/prod_6.jpg",
         "descripcion": "Excelente Heladera cíclica top mount 295L Blanca con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -914,7 +914,7 @@ const productos = {
     },
     "heladera_no_frost_inverter_top_mount_266l": {
         "nombre": "Heladera no frost inverter top mount 266L",
-        "precio": 717723,
+        "precio": 699999,
         "img": "images/productos/prod_7.jpg",
         "descripcion": "Excelente Heladera no frost inverter top mount 266L con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -926,7 +926,7 @@ const productos = {
     },
     "heladera_no_frost_inverter_top_mount_470l": {
         "nombre": "Heladera no frost inverter top mount 470L",
-        "precio": 1200823,
+        "precio": 1299999,
         "img": "images/productos/prod_8.jpg",
         "descripcion": "Excelente Heladera no frost inverter top mount 470L con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -938,7 +938,7 @@ const productos = {
     },
     "heladera_no_frost_inverter_side_by_side_510l": {
         "nombre": "Heladera no frost inverter side by side 510L",
-        "precio": 1500409,
+        "precio": 1449999,
         "img": "images/productos/prod_9.jpg",
         "descripcion": "Excelente Heladera no frost inverter side by side 510L con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -950,7 +950,7 @@ const productos = {
     },
     "lavarropas_6_kg_titanium": {
         "nombre": "Lavarropas 6 KG Titanium",
-        "precio": 580522,
+        "precio": 549999,
         "img": "images/productos/prod_10.png",
         "descripcion": "Excelente Lavarropas 6 KG Titanium con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -962,7 +962,7 @@ const productos = {
     },
     "lavarropas_6_kg_blanco": {
         "nombre": "Lavarropas 6 KG Blanco",
-        "precio": 550382,
+        "precio": 509999,
         "img": "images/productos/prod_11.png",
         "descripcion": "Excelente Lavarropas 6 KG Blanco con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -986,7 +986,7 @@ const productos = {
     },
     "lavarropas_lunar_inverter_8kg_titanium_wifi": {
         "nombre": "Lavarropas Lunar Inverter 8KG Titanium WIFI",
-        "precio": 700892,
+        "precio": 729999,
         "img": "images/productos/prod_13.png",
         "descripcion": "Excelente Lavarropas Lunar Inverter 8KG Titanium WIFI con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -998,7 +998,7 @@ const productos = {
     },
     "lavavajillas_silver_12_cubiertos": {
         "nombre": "Lavavajillas Silver 12 cubiertos",
-        "precio": 625480,
+        "precio": 699999,
         "img": "images/productos/prod_14.jpg",
         "descripcion": "Excelente Lavavajillas Silver 12 cubiertos con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1010,7 +1010,7 @@ const productos = {
     },
     "lavavajillas_inox_14_cubiertos": {
         "nombre": "Lavavajillas Inox 14 cubiertos",
-        "precio": 870698,
+        "precio": 889999,
         "img": "images/productos/prod_15.jpg",
         "descripcion": "Excelente Lavavajillas Inox 14 cubiertos con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1022,7 +1022,7 @@ const productos = {
     },
     "aspiradora_robot_laser_smart_trapeadora": {
         "nombre": "Aspiradora Robot Laser Smart trapeadora",
-        "precio": 733844,
+        "precio": 679999,
         "img": "images/productos/prod_16.jpg",
         "descripcion": "Excelente Aspiradora Robot Laser Smart trapeadora con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1034,7 +1034,7 @@ const productos = {
     },
     "aspiradora_s_bolsa_1400w_blue": {
         "nombre": "Aspiradora S/Bolsa 1400W Blue",
-        "precio": 160016,
+        "precio": 149999,
         "img": "images/productos/prod_17.jpg",
         "descripcion": "Excelente Aspiradora S/Bolsa 1400W Blue con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1046,7 +1046,7 @@ const productos = {
     },
     "aspiradora_s_bolsa_2000w_flat_blue": {
         "nombre": "Aspiradora S/Bolsa 2000W Flat Blue",
-        "precio": 240869,
+        "precio": 189999,
         "img": "images/productos/prod_18.jpg",
         "descripcion": "Excelente Aspiradora S/Bolsa 2000W Flat Blue con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1058,7 +1058,7 @@ const productos = {
     },
     "aspiradora_stick_inal_mbrica_2_en_1": {
         "nombre": "Aspiradora Stick inalámbrica 2 en 1",
-        "precio": 250627,
+        "precio": 239999,
         "img": "images/productos/prod_19.jpg",
         "descripcion": "Excelente Aspiradora Stick inalámbrica 2 en 1 con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1070,7 +1070,7 @@ const productos = {
     },
     "aire_acondicionado_2503_frigor_as": {
         "nombre": "Aire acondicionado 2503 frigorías",
-        "precio": 750654,
+        "precio": 909999,
         "img": "images/productos/prod_20.jpg",
         "descripcion": "Excelente Aire acondicionado 2503 frigorías con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1082,7 +1082,7 @@ const productos = {
     },
     "ventilador_de_pie_blanco": {
         "nombre": "Ventilador de pie blanco",
-        "precio": 140310,
+        "precio": 119999,
         "img": "images/productos/prod_21.webp",
         "descripcion": "Excelente Ventilador de pie blanco con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1094,7 +1094,7 @@ const productos = {
     },
     "ventilador_de_pie_negro_20": {
         "nombre": "Ventilador de pie negro 20",
-        "precio": 99891,
+        "precio": 99999,
         "img": "images/productos/prod_22.jpg",
         "descripcion": "Excelente Ventilador de pie negro 20 con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1106,7 +1106,7 @@ const productos = {
     },
     "tostadora_el_ctrica": {
         "nombre": "Tostadora eléctrica",
-        "precio": 50213,
+        "precio": 49999,
         "img": "images/productos/prod_23.jpg",
         "descripcion": "Excelente Tostadora eléctrica con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1118,7 +1118,7 @@ const productos = {
     },
     "cafetera_1_25l_negra": {
         "nombre": "Cafetera 1.25L negra",
-        "precio": 65271,
+        "precio": 65999,
         "img": "images/productos/prod_24.jpg",
         "descripcion": "Excelente Cafetera 1.25L negra con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1130,7 +1130,7 @@ const productos = {
     },
     "batidora_de_mano_negra": {
         "nombre": "Batidora de mano negra",
-        "precio": 75766,
+        "precio": 65999,
         "img": "images/productos/prod_25.jpg",
         "descripcion": "Excelente Batidora de mano negra con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1142,7 +1142,7 @@ const productos = {
     },
     "licuadora_800w_inox": {
         "nombre": "Licuadora 800W Inox",
-        "precio": 120528,
+        "precio": 89999,
         "img": "images/productos/prod_26.jpg",
         "descripcion": "Excelente Licuadora 800W Inox con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1154,7 +1154,7 @@ const productos = {
     },
     "campana_extractora_de_humo_inox": {
         "nombre": "Campana extractora de humo Inox",
-        "precio": 450045,
+        "precio": 309999,
         "img": "images/productos/prod_27.webp",
         "descripcion": "Excelente Campana extractora de humo Inox con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1166,7 +1166,7 @@ const productos = {
     },
     "anafe_el_ctrico_negro": {
         "nombre": "Anafe eléctrico negro",
-        "precio": 490000,
+        "precio": 349999,
         "img": "images/productos/prod_28.webp",
         "descripcion": "Excelente Anafe eléctrico negro con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1178,7 +1178,7 @@ const productos = {
     },
     "air_fryer_4_5l": {
         "nombre": "Air Fryer 4.5L",
-        "precio": 90721,
+        "precio": 99999,
         "img": "images/productos/prod_29.jpg",
         "descripcion": "Excelente Air Fryer 4.5L con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1190,7 +1190,7 @@ const productos = {
     },
     "air_fryer_11l_negra_smart_digital": {
         "nombre": "Air Fryer 11L negra smart digital",
-        "precio": 320505,
+        "precio": 269999,
         "img": "images/productos/prod_30.webp",
         "descripcion": "Excelente Air Fryer 11L negra smart digital con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1202,7 +1202,7 @@ const productos = {
     },
     "licuadora_de_mano": {
         "nombre": "Licuadora de mano",
-        "precio": 160419,
+        "precio": 99999,
         "img": "images/productos/prod_31.jpg",
         "descripcion": "Excelente Licuadora de mano con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1226,7 +1226,7 @@ const productos = {
     },
     "pava_el_ctrica_1_7l_inox_digital": {
         "nombre": "Pava eléctrica 1.7L Inox digital",
-        "precio": 150956,
+        "precio": 69999,
         "img": "images/productos/prod_33.jpg",
         "descripcion": "Excelente Pava eléctrica 1.7L Inox digital con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1250,7 +1250,7 @@ const productos = {
     },
     "tostadora_el_ctrica_negra": {
         "nombre": "Tostadora eléctrica negra",
-        "precio": 130146,
+        "precio": 59999,
         "img": "images/productos/prod_35.jpg",
         "descripcion": "Excelente Tostadora eléctrica negra con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1272,47 +1272,12 @@ const productos = {
         ],
         "currency": "ARS"
     },
-    "reloj_smart": {
-        "nombre": "Reloj Smart",
-        "precio": 45000,
+    
+    "seiko mods": {
+        "nombre": "Seiko mods",
+        "precio": 499999,
         "img": "images/productos/prod_38.png",
-        "descripcion": "Compatible con Android y iOS.",
-        "specs": [
-            "Oferta especial",
-            "Stock limitado",
-            "Excelente calidad"
-        ],
-        "currency": "ARS"
-    },
-    "perfume_sauvage": {
-        "nombre": "Perfume Sauvage",
-        "precio": 120000,
-        "img": "images/productos/perfume.png",
-        "descripcion": "Eau de Toilette 100ml.",
-        "specs": [
-            "Oferta especial",
-            "Stock limitado",
-            "Excelente calidad"
-        ],
-        "currency": "ARS"
-    },
-    "auriculares_bluetooth": {
-        "nombre": "Auriculares Bluetooth",
-        "precio": 25000,
-        "img": "images/productos/prod_41.jpg",
-        "descripcion": "Cancelación de ruido activa.",
-        "specs": [
-            "Oferta especial",
-            "Stock limitado",
-            "Excelente calidad"
-        ],
-        "currency": "ARS"
-    },
-    "reloj_cl_sico": {
-        "nombre": "Reloj Clásico",
-        "precio": 45000,
-        "img": "images/productos/prod_38.png",
-        "descripcion": "Excelente Reloj Clásico con la mejor calidad garantizada por Palermo Tech.",
+        "descripcion": "Excelente Seiko mod con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
             "Producto original",
             "Garantía de 6 meses",
@@ -1322,7 +1287,7 @@ const productos = {
     },
     "airpods_pro_2": {
         "nombre": "Airpods Pro 2",
-        "precio": 39999,
+        "precio": 45000,
         "img": "images/productos/prod_41.jpg",
         "descripcion": "Excelente Airpods Pro 2 con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
@@ -1346,7 +1311,7 @@ const productos = {
     },
     "iphone_17_256gb": {
         "nombre": "iPhone 17 256GB",
-        "precio": 900,
+        "precio": 999,
         "img": "images/productos/iphone 17.webp",
         "descripcion": "Colores: white, blue, lavander, sage, black",
         "specs": [
@@ -1358,7 +1323,7 @@ const productos = {
     },
     "iphone_17_pro_256gb": {
         "nombre": "iPhone 17 Pro 256GB",
-        "precio": 1360,
+        "precio": 1200,
         "img": "images/productos/iphone 17 pro.webp",
         "descripcion": "Colores: silver, orange, blue",
         "specs": [
@@ -1370,7 +1335,7 @@ const productos = {
     },
     "iphone_17_pro_max_256gb_blue_silver": {
         "nombre": "iPhone 17 Pro Max 256GB (Blue, Silver)",
-        "precio": 1510,
+        "precio": 1340,
         "img": "images/productos/iphone 17 pro max.webp",
         "descripcion": "Colores: blue, silver",
         "specs": [
@@ -1382,7 +1347,7 @@ const productos = {
     },
     "iphone_17_pro_max_256gb_orange": {
         "nombre": "iPhone 17 Pro Max 256GB (Orange)",
-        "precio": 1500,
+        "precio": 1330,
         "img": "images/productos/iphone 17 pro max orange.webp",
         "descripcion": "Color: orange",
         "specs": [
@@ -1442,7 +1407,7 @@ const productos = {
     },
     "samsung_s26_ultra_256gb": {
         "nombre": "Samsung S26 Ultra 256GB",
-        "precio": 1250,
+        "precio": 1180,
         "img": "images/productos/galaxy-s26-ultra-.jpg",
         "descripcion": "Colores: violet, black, blue",
         "specs": [
@@ -1454,7 +1419,7 @@ const productos = {
     },
     "samsung_s26_ultra_512gb": {
         "nombre": "Samsung S26 Ultra 512GB",
-        "precio": 1360,
+        "precio": 1260,
         "img": "images/productos/galaxy-s26-ultra-.jpg",
         "descripcion": "Colores: black, blue",
         "specs": [
@@ -1526,7 +1491,7 @@ const productos = {
     },
     "macbook_neo_256gb": {
         "nombre": "Macbook Neo 256GB",
-        "precio": 820,
+        "precio": 850,
         "img": "images/productos/macbook_3.jpg",
         "descripcion": "Colores: citrus, indigo, blush",
         "specs": [
@@ -1538,7 +1503,7 @@ const productos = {
     },
     "macbook_neo_512gb": {
         "nombre": "Macbook Neo 512GB",
-        "precio": 900,
+        "precio": 950,
         "img": "images/productos/macbook_1.jpg",
         "descripcion": "Colores: citrus, indigo, silver, blush",
         "specs": [
@@ -1550,7 +1515,7 @@ const productos = {
     },
     "ipad_a16_wifi_128gb": {
         "nombre": "iPad A16 WiFi 128GB",
-        "precio": 490,
+        "precio": 540,
         "img": "images/productos/ipad 11.webp",
         "descripcion": "Colores: yellow, blue, pink",
         "specs": [
@@ -1574,7 +1539,7 @@ const productos = {
     },
     "sony_ps5_fisica_1tb": {
         "nombre": "Sony PS5 Fisica 1TB",
-        "precio": 780,
+        "precio": 830,
         "img": "images/productos/playstation 5 astrobot.png",
         "descripcion": "Consola",
         "specs": [
@@ -1586,7 +1551,7 @@ const productos = {
     },
     "sony_ps5_digital_825gb": {
         "nombre": "Sony PS5 Digital 825GB",
-        "precio": 700,
+        "precio": 760,
         "img": "images/productos/playstation 5 digital.webp",
         "descripcion": "Consola",
         "specs": [
@@ -1598,7 +1563,7 @@ const productos = {
     },
     "sony_ps5_digital_astro_1tb": {
         "nombre": "Sony PS5 Digital Astro Bot + Gran Turismo 1TB",
-        "precio": 750,
+        "precio": 790,
         "img": "images/productos/playstation 5 astrobot.png",
         "descripcion": "Consola",
         "specs": [
@@ -1643,5 +1608,23 @@ const productos = {
             "Precios en USD"
         ],
         "currency": "USD"
+    }
+,
+    "airpods_pro_3": {
+        "nombre": "Airpods Pro 3 Originales",
+        "precio": 599999,
+        "img": "images/productos/prod_41.jpg",
+        "descripcion": "Airpods Pro 3 Originales",
+        "specs": ["Originales", "Garantía", "Alta calidad"],
+        "currency": "ARS"
+    }
+,
+    "lavavajillas_blanco_14_cubiertos": {
+        "nombre": "Lavavajillas Blanco 14 cubiertos",
+        "precio": 699999,
+        "img": "images/productos/imagen lavavajillas blanco 14.webp",
+        "descripcion": "Excelente Lavavajillas Blanco 14 cubiertos con la mejor calidad garantizada por Palermo Tech.",
+        "specs": ["Producto original", "Garantía de 6 meses", "Envío a todo el país"],
+        "currency": "ARS"
     }
 };
