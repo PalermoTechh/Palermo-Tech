@@ -23,8 +23,8 @@ function isOnPage(id) {
     return (document.body.dataset.page === id) || (getPageSlug() === id);
 }
 
-function textMatch(text, query) { 
-    return text.toLowerCase().includes(query.toLowerCase()); 
+function textMatch(text, query) {
+    return text.toLowerCase().includes(query.toLowerCase());
 }
 
 /* =========================================
@@ -48,7 +48,7 @@ function addToCart(product) {
 function removeFromCart(index) {
     cart.splice(index, 1);
     saveCart();
-    renderCartModal(); 
+    renderCartModal();
 }
 
 function getCartTotals() {
@@ -177,12 +177,12 @@ function injectAddButtons() {
 function openCartModal() {
     renderCartModal();
     const modal = document.getElementById('cart-modal');
-    if(modal) modal.classList.add('open');
+    if (modal) modal.classList.add('open');
 }
 
 function closeCartModal() {
     const modal = document.getElementById('cart-modal');
-    if(modal) modal.classList.remove('open');
+    if (modal) modal.classList.remove('open');
 }
 
 function renderCartModal() {
@@ -196,7 +196,7 @@ function renderCartModal() {
 
     const totals = getCartTotals();
     let itemsHtml = cart.length === 0 ? '<p class="empty-msg">Tu carrito está vacío.</p>' : '<ul class="cart-list">';
-    
+
     if (cart.length > 0) {
         cart.forEach((item, index) => {
             itemsHtml += `
@@ -211,8 +211,8 @@ function renderCartModal() {
         itemsHtml += '</ul>';
     }
 
-    const promoHtml = totals.promoActiva 
-        ? `<div class="promo-alert">¡Descuento del 10% aplicado por llevar +3 productos!</div>` 
+    const promoHtml = totals.promoActiva
+        ? `<div class="promo-alert">¡Descuento del 10% aplicado por llevar +3 productos!</div>`
         : `<div class="promo-hint">Tip: Llevá 3 productos para 10% OFF</div>`;
 
     modal.innerHTML = `
@@ -248,7 +248,7 @@ function renderCartModal() {
     `;
 
     const form = modal.querySelector('#checkout-form');
-    if(form) {
+    if (form) {
         form.addEventListener('submit', (e) => {
             e.preventDefault();
             finalizeCheckout(totals);
@@ -266,13 +266,13 @@ function finalizeCheckout(totals) {
     mensaje += `*Cliente:* ${nombre}\n`;
     mensaje += `*Dirección:* ${direccion}, ${localidad} (CP: ${cp})\n\n`;
     mensaje += `*PEDIDO:*\n`;
-    
+
     cart.forEach(item => {
         mensaje += `- ${item.nombre} ($${item.precio})\n`;
     });
 
     mensaje += `\nSubtotal: $${totals.subtotal}`;
-    if(totals.promoActiva) mensaje += `\nDescuento: -$${totals.descuento}`;
+    if (totals.promoActiva) mensaje += `\nDescuento: -$${totals.descuento}`;
     mensaje += `\n*TOTAL A PAGAR: $${totals.totalFinal}*`;
 
     const url = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(mensaje)}`;
@@ -293,7 +293,7 @@ function showToast(msg) {
    ========================================= */
 function initCarousel() {
     if (!isOnPage('relojes')) return;
-    
+
     const track = document.querySelector('.carousel-track');
     const slides = Array.from(document.querySelectorAll('.carousel-slide'));
     const nextButton = document.querySelector('.carousel .next');
@@ -428,12 +428,12 @@ function initAccordion() {
 function initGallery() {
     if (!isOnPage('celulares')) return;
     on('click', '.gallery .item', (e, item) => {
-        if(e.target.classList.contains('btn-add-cart')) return;
+        if (e.target.classList.contains('btn-add-cart')) return;
         const img = item.querySelector('img');
         const caption = item.querySelector('figcaption')?.textContent || '';
         const node = document.createElement('div');
         node.innerHTML = `<img src="${img?.src || ''}" style="width:100%"><h3 style="text-align:center;margin-top:1rem;">${caption}</h3>`;
-        
+
         const backdrop = document.createElement('div');
         backdrop.className = 'modal-backdrop open';
         backdrop.innerHTML = `<div class="modal"><header><button class="btn-icon" onclick="this.closest('.modal-backdrop').remove()">✕</button></header><div class="content"></div></div>`;
@@ -461,7 +461,7 @@ function initElectrodomesticosSearch() {
             const match = onclick.match(/id=([^']+)'/);
             const id = match ? match[1] : '';
             const prod = typeof productos !== 'undefined' ? productos[id] : null;
-            
+
             let nombre = '', categoria = '', precio = 0;
             if (prod) {
                 nombre = prod.nombre.toLowerCase();
@@ -514,7 +514,7 @@ function initLocalesSearch() {
             const match = onclick.match(/id=([^']+)'/);
             const id = match ? match[1] : '';
             const prod = typeof productos !== 'undefined' ? productos[id] : null;
-            
+
             let nombre = '', categoria = '';
             if (prod) {
                 nombre = prod.nombre.toLowerCase();
@@ -554,7 +554,7 @@ function initOfertas() {
     function apply() {
         const q = search?.value.trim() || '';
         const minV = Number(min?.value || 0);
-        const maxV = Number(max?.value || 9999999); 
+        const maxV = Number(max?.value || 9999999);
         let visible = 0;
         cards.forEach(card => {
             const precio = Number(card.dataset.precio) || 0;
@@ -566,7 +566,7 @@ function initOfertas() {
         if (empty) empty.hidden = visible !== 0;
     }
     [search, min, max].forEach(el => el?.addEventListener('input', apply));
-    apply(); 
+    apply();
 }
 
 function initContacto() {
@@ -651,7 +651,7 @@ function initChatbot() {
         input.focus();
     });
 
-    showMenu(); 
+    showMenu();
 }
 
 
@@ -676,24 +676,24 @@ function initDetalle() {
     const params = new URLSearchParams(location.search);
     const id = params.get('id');
 
-    const imgEl    = document.getElementById('det-img');
+    const imgEl = document.getElementById('det-img');
     const tituloEl = document.getElementById('det-titulo');
     const precioEl = document.getElementById('det-precio');
-    const descEl   = document.getElementById('det-desc');
-    const specsEl  = document.getElementById('det-specs');
-    const btnAdd   = document.getElementById('det-btn-add');
+    const descEl = document.getElementById('det-desc');
+    const specsEl = document.getElementById('det-specs');
+    const btnAdd = document.getElementById('det-btn-add');
 
     if (!id || typeof productos === 'undefined' || !productos[id]) {
         if (tituloEl) tituloEl.textContent = 'Producto no encontrado';
-        if (descEl)   descEl.textContent   = 'El producto que buscás no existe o fue removido.';
+        if (descEl) descEl.textContent = 'El producto que buscás no existe o fue removido.';
         return;
     }
 
     const p = productos[id];
     if (tituloEl) tituloEl.textContent = p.nombre;
     if (precioEl) precioEl.textContent = `${p.currency || 'ARS'} $${p.precio.toLocaleString('es-AR')}`;
-    if (descEl)   descEl.textContent   = p.descripcion || '';
-    if (imgEl)  { imgEl.src = p.img || ''; imgEl.alt = p.nombre; }
+    if (descEl) descEl.textContent = p.descripcion || '';
+    if (imgEl) { imgEl.src = p.img || ''; imgEl.alt = p.nombre; }
     document.title = `${p.nombre} | Palermo Tech`;
 
     if (specsEl && p.specs) {
@@ -972,11 +972,11 @@ const productos = {
         ],
         "currency": "ARS"
     },
-    "lavarropas_lunar_inverter_10_5kg_titanium_wifi": {
-        "nombre": "Lavarropas Lunar Inverter 10.5KG Titanium WIFI",
-        "precio": 790662,
+    "lavarropas_lunar_inverter_11_5kg_titanium_wifi": {
+        "nombre": "Lavarropas Lunar Inverter 11.5KG Titanium WIFI",
+        "precio": 839999,
         "img": "images/productos/prod_12.webp",
-        "descripcion": "Excelente Lavarropas Lunar Inverter 10.5KG Titanium WIFI con la mejor calidad garantizada por Palermo Tech.",
+        "descripcion": "Excelente Lavarropas Lunar Inverter 11.5KG Titanium WIFI con la mejor calidad garantizada por Palermo Tech.",
         "specs": [
             "Producto original",
             "Garantía de 6 meses",
@@ -1272,7 +1272,7 @@ const productos = {
         ],
         "currency": "ARS"
     },
-    
+
     "seiko mods": {
         "nombre": "Seiko mods",
         "precio": 499999,
@@ -1609,7 +1609,7 @@ const productos = {
         ],
         "currency": "USD"
     }
-,
+    ,
     "airpods_pro_3": {
         "nombre": "Airpods Pro 3 Originales",
         "precio": 599999,
@@ -1618,7 +1618,7 @@ const productos = {
         "specs": ["Originales", "Garantía", "Alta calidad"],
         "currency": "ARS"
     }
-,
+    ,
     "lavavajillas_blanco_14_cubiertos": {
         "nombre": "Lavavajillas Blanco 14 cubiertos",
         "precio": 699999,
