@@ -1167,16 +1167,17 @@ const productos = {
         ],
         "currency": "ARS"
     },
-    "lavarropas_lunar_inverter_11.5kg_titanium_wifi": {
+    "lavarropas_lunar_inverter_11_5kg_titanium_wifi": {
         "nombre": "Lavarropas Lunar Inverter 11.5KG Titanium WIFI",
         "precio": 839999,
         "img": "images/productos/prod_12.webp",
-        "descripcion": "El Lavarropas Lunar Inverter 11.5KG Titanium WIFI ofrece múltiples programas para el cuidado óptimo de tu hogar. Incluye funciones de ciclo rápido, bajo consumo de agua y sistema de protección, garantizando una limpieza profunda y eficiente.",
+        "descripcion": "El Lavarropas Midea Lunar Inverter ofrece tecnología de última generación para el cuidado de tus prendas. Su conectividad WIFI te permite controlarlo desde tu smartphone, programando ciclos y monitoreando el lavado estés donde estés. Su elegante diseño Titanium y su panel digital moderno lo convierten en el complemento perfecto para tu hogar.",
         "specs": [
-            "Múltiples programas automáticos",
-            "Tambor de acero inoxidable",
-            "Lavado ecológico y rápido",
-            "Eficiencia A+++"
+            "Capacidad: 11.5 KG",
+            "Motor Inverter (Ahorro de energía)",
+            "Conectividad WIFI y App Móvil",
+            "Panel Digital Lunar Dial",
+            "Garantía Oficial"
         ],
         "currency": "ARS"
     },
