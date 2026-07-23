@@ -857,7 +857,7 @@ function parsePrecio(texto) {
 const productos = {
     "iphone_17_256gb": {
         "nombre": "iPhone 17 256GB",
-        "precio": 900,
+        "precio": 999,
         "img": "images/productos/iphone 17.webp",
         "descripcion": "Smartphone iPhone 17 256GB de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Colores: white, blue, lavander, sage, black.",
         "specs": [
@@ -870,7 +870,7 @@ const productos = {
     },
     "iphone_17_pro_256gb": {
         "nombre": "iPhone 17 Pro 256GB",
-        "precio": 1360,
+        "precio": 1200,
         "img": "images/productos/iphone 17 pro.webp",
         "descripcion": "Smartphone iPhone 17 Pro 256GB de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Colores: silver, orange, blue.",
         "specs": [
@@ -883,7 +883,7 @@ const productos = {
     },
     "iphone_17_pro_max_256gb_blue_silver": {
         "nombre": "iPhone 17 Pro Max 256GB (Blue, Silver)",
-        "precio": 1510,
+        "precio": 1340,
         "img": "images/productos/iphone 17 pro max.webp",
         "descripcion": "Smartphone iPhone 17 Pro Max 256GB (Blue, Silver) de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Colores: blue, silver.",
         "specs": [
@@ -896,7 +896,7 @@ const productos = {
     },
     "iphone_17_pro_max_256gb_orange": {
         "nombre": "iPhone 17 Pro Max 256GB (Orange)",
-        "precio": 1500,
+        "precio": 1330,
         "img": "images/productos/iphone 17 pro max orange.webp",
         "descripcion": "Smartphone iPhone 17 Pro Max 256GB (Orange) de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Color: orange.",
         "specs": [
@@ -935,7 +935,7 @@ const productos = {
     },
     "samsung_s26_ultra_256gb": {
         "nombre": "Samsung S26 Ultra 256GB",
-        "precio": 1250,
+        "precio": 1180,
         "img": "images/productos/galaxy-s26-ultra-.jpg",
         "descripcion": "Smartphone Samsung S26 Ultra 256GB de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Colores: violet, black, blue.",
         "specs": [
@@ -948,7 +948,7 @@ const productos = {
     },
     "samsung_s26_ultra_512gb": {
         "nombre": "Samsung S26 Ultra 512GB",
-        "precio": 1360,
+        "precio": 1260,
         "img": "images/productos/galaxy-s26-ultra-.jpg",
         "descripcion": "Smartphone Samsung S26 Ultra 512GB de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día. Colores: black, blue.",
         "specs": [
@@ -1026,7 +1026,7 @@ const productos = {
     },
     "pococ75": {
         "nombre": "Poco C75",
-        "precio": 299999,
+        "precio": 319999,
         "img": "images/productos/prod_3.jpg",
         "descripcion": "Smartphone Poco C75 de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día.",
         "specs": [
@@ -1039,7 +1039,7 @@ const productos = {
     },
     "redmi_15c": {
         "nombre": "Redmi 15C",
-        "precio": 319999,
+        "precio": 349999,
         "img": "images/productos/prod_1.jpg",
         "descripcion": "Smartphone Redmi 15C de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día.",
         "specs": [
@@ -1052,7 +1052,7 @@ const productos = {
     },
     "redmi_14c": {
         "nombre": "Redmi 14C",
-        "precio": 279999,
+        "precio": 299999,
         "img": "images/productos/prod_2.jpg",
         "descripcion": "Smartphone Redmi 14C de última generación. Destaca por su cámara de alta resolución, rendimiento fluido gracias a su potente procesador y una batería de larga duración. Perfecto para el día a día.",
         "specs": [
