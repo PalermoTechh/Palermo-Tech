@@ -133,6 +133,7 @@ h6 {
     justify-content: space-between;
     padding: .75rem 0;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 /* ESTILO DEL LOGO CORREGIDO A NEGRO */
@@ -749,7 +750,7 @@ input:focus, select:focus, textarea:focus {
 .producto p {
     margin: 0;
     font-size: 0.95rem;
-    color: #333;
+    color: var(--color-text-muted);
 }
 
 .producto .precio {
